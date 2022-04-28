@@ -160,3 +160,21 @@ body{
     @apply my-2 w-44
   }
 }
+.dash-detail-card{
+  @extend .card-4;
+  @apply bg-white rounded-xl shadow-md overflow-hidden relative;
+  &__header{
+    background-color:#e6e6e6;
+    & > * {
+      @apply p-2 px-5;
+    }
+    div{
+      @apply flex; 
+    }
+  }
+  &__body{
+    width:100%;
+    height:100%;
+    
+  }
+}

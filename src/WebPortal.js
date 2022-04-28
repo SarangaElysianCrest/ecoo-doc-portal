@@ -5,6 +5,7 @@ import Drawer from "./components/drawer/Drawer";
 import config from "./app/config";
 import { Route } from "react-router-dom";
 import CompanyRegisrationHome from "./features/companyRegistration/CompanyRegisrationHome";
+import OverView from "./features/overview/OverView";
 
 const WebPortal = () => {
   return (
@@ -21,11 +22,7 @@ const WebPortal = () => {
             path={"/web/companyRegistration"}
             component={CompanyRegisrationHome}
           />
-          {/* <Route
-                        exact
-                        path={"/web/subscriptions"}
-                        component={ isAuthenticated ? SubscriptionHome : Login}
-                    /> */}
+          <Route exact path={"/web/overview"} component={OverView} />
         </SectionColumn>
       </Section>
     </div>

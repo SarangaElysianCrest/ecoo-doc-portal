@@ -1,43 +1,49 @@
-.forms-response-down-lg{
+.forms-response-down-lg {
   position: absolute;
+
   @media #{$xl-layout} {
     display: none;
-   }
-   @media #{$xx-layout} {
+  }
+
+  @media #{$xx-layout} {
     display: none;
   }
-   @media #{$xxx-layout} {
-     display: none;
-   }
-   @media #{$ever-layout} {
+
+  @media #{$xxx-layout} {
+    display: none;
+  }
+
+  @media #{$ever-layout} {
     display: none;
   }
 }
 
-.forms-response-up-lg{
+.forms-response-up-lg {
 
-   @media #{$md-layout} {
-     display: none;
-   }
-   @media #{$sm-layout} {
-     display: none;
-   }
-
-   @media #{$xxs-layout} {
+  @media #{$md-layout} {
     display: none;
   }
+
+  @media #{$sm-layout} {
+    display: none;
+  }
+
+  @media #{$xxs-layout} {
+    display: none;
+  }
+
   @media #{$xxxs-layout} {
     display: none;
   }
 }
 
-.auth-column{
+.auth-column {
   display: flex;
   flex-direction: column;
   z-index: 2;
 }
 
-.auth-row{
+.auth-row {
   box-sizing: border-box;
   display: flex;
   align-items: stretch;
@@ -51,7 +57,8 @@
   min-width: 0px;
   justify-content: center;
 }
-.left-auth-col{
+
+.left-auth-col {
   box-sizing: border-box;
   display: flex;
   align-items: stretch;
@@ -70,11 +77,13 @@
   padding: 40px 90px;
   justify-content: space-between;
   overflow-y: auto;
+
   @media #{$ever-layout} {
-   width: 640px;
+    width: 640px;
   }
 }
-.right-auth-col{
+
+.right-auth-col {
   box-sizing: border-box;
   display: flex;
   align-items: stretch;
@@ -107,6 +116,7 @@
   @media #{$md-layout} {
     display: none;
   }
+
   @media #{$sm-layout} {
     display: none;
   }
@@ -114,14 +124,17 @@
   @media #{$xxs-layout} {
     display: none;
   }
+
   @media #{$xsm-layout} {
     display: none;
   }
+
   @media #{$xxxs-layout} {
     display: none;
   }
 }
-.image-tab{
+
+.image-tab {
   box-sizing: border-box;
   display: flex;
   align-items: center;
@@ -136,7 +149,7 @@
   justify-content: center;
 }
 
-.auth-left-body{
+.auth-left-body {
   box-sizing: border-box;
   display: flex;
   align-items: stretch;
@@ -148,7 +161,8 @@
   min-height: 0px;
   min-width: 0px;
 }
-.auth-heading{
+
+.auth-heading {
   box-sizing: border-box;
   display: flex;
   align-items: stretch;
@@ -163,7 +177,8 @@
   padding-top: 10px;
   padding-bottom: 40px;
 }
-.auth-heading-checkout{
+
+.auth-heading-checkout {
   box-sizing: border-box;
   display: flex;
   align-items: stretch;
@@ -178,7 +193,8 @@
   //padding-top: 5px;
   padding-bottom: 30px;
 }
-.auth-heading-text{
+
+.auth-heading-text {
   max-width: 100%;
   font-family: $Poppins;
   font-size: 33px;
@@ -200,7 +216,7 @@
   text-size-adjust: none;
 }
 
-.form-box{
+.form-box {
   box-sizing: border-box;
   display: flex;
   align-items: stretch;
@@ -214,11 +230,13 @@
   min-width: 0px;
   margin-bottom: 20px;
 }
-.auth-form{
+
+.auth-form {
   position: relative;
   z-index: 0;
 }
-.login-field{
+
+.login-field {
   box-sizing: border-box;
   display: flex;
   align-items: stretch;
@@ -231,7 +249,8 @@
   min-width: 0px;
   flex-grow: 1;
 }
-.login-field-container{
+
+.login-field-container {
   box-sizing: border-box;
   display: flex;
   align-items: stretch;
@@ -251,7 +270,8 @@
   border-radius: 5px;
   width: 460px;
 }
-.auth-input{
+
+.auth-input {
   background-color: transparent;
   border: none;
   box-sizing: border-box;
@@ -278,7 +298,8 @@
   -webkit-font-smoothing: antialiased;
   text-rendering: geometricprecision;
 }
-.LoginText{
+
+.LoginText {
   width: 150px;
   width: 150px;
   height: 35px;
@@ -296,7 +317,7 @@
   color: #292a31;
 }
 
-.LoginTextCheckOut{
+.LoginTextCheckOut {
   font-family: $Poppins;
   font-size: 19px;
   font-weight: 600;
@@ -307,7 +328,8 @@
   text-align: center;
   color: #292a31;
 }
-.privacy-text{
+
+.privacy-text {
   max-width: 100%;
   text-rendering: geometricprecision;
   -webkit-font-smoothing: antialiased;
@@ -327,22 +349,23 @@
   letter-spacing: normal;
   color: #797b8d;
 }
-.SignupText{
-    height: 35px;
-    margin-top: 30px;
-    margin-left: 50px;
-    font-family: $Poppins;
-    font-size: 33px;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 35px;
-    letter-spacing: 0.4px;
-    text-align: left;
-    color: #292a31;
+
+.SignupText {
+  height: 35px;
+  margin-top: 30px;
+  margin-left: 50px;
+  font-family: $Poppins;
+  font-size: 33px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 35px;
+  letter-spacing: 0.4px;
+  text-align: left;
+  color: #292a31;
 }
 
-.SignupTextCheckOut{
+.SignupTextCheckOut {
 
   width: 400px;
   height: 35px;
@@ -358,7 +381,7 @@
   color: #292a31;
 }
 
-.ConfirmFPTextCheckOut{
+.ConfirmFPTextCheckOut {
 
   width: 400px;
   height: 80px;
@@ -374,7 +397,8 @@
   text-align: center;
   color: #292a31;
 }
-.sign-up-btn{
+
+.sign-up-btn {
   width: 100px;
   height: 35px;
   background-color: #292a31;
@@ -389,6 +413,7 @@
   top: 2%;
   left: 8%;
   transform: translate(-50%, -50%);
+
   @media #{$xl-layout} {
     top: 5%;
     left: 10%;
@@ -397,6 +422,7 @@
   @media #{$md-layout} {
     display: none;
   }
+
   @media #{$sm-layout} {
     display: none;
   }
@@ -404,12 +430,13 @@
   @media #{$xxs-layout} {
     display: none;
   }
+
   @media #{$xxxs-layout} {
     display: none;
   }
 }
 
-.sign-up-btn-login{
+.sign-up-btn-login {
   width: 100px;
   height: 35px;
   background-color: #292a31;
@@ -419,12 +446,15 @@
   font-size: 14px;
   cursor: pointer;
   text-align: center;
+
   @media #{$ever-layout} {
     display: none;
   }
+
   @media #{$xl-layout} {
     display: none;
   }
+
   @media #{$xx-layout} {
     display: none;
   }
@@ -432,30 +462,27 @@
   @media #{$xxx-layout} {
     display: none;
   }
-  @media #{$sm-layout} {
 
-  }
+  @media #{$sm-layout} {}
 
-  @media #{$xxs-layout} {
+  @media #{$xxs-layout} {}
 
-  }
-  @media #{$xxxs-layout} {
-
-  }
+  @media #{$xxxs-layout} {}
 }
 
 
-.form-input-auth{
-    width: 100%;
-    height: 57px;
-    margin-right: 50px;
-    padding-left: 20px;
-    border-radius: 6px;
-    border: solid 1px #b7b7c7;
-    background-color: #fdfdff;
-    margin-bottom: 20px;
+.form-input-auth {
+  width: 100%;
+  height: 57px;
+  margin-right: 50px;
+  padding-left: 20px;
+  border-radius: 6px;
+  border: solid 1px #b7b7c7;
+  background-color: #fdfdff;
+  margin-bottom: 20px;
 }
-.btn-div{
+
+.btn-div {
   box-sizing: border-box;
   display: flex;
   align-items: stretch;
@@ -469,7 +496,8 @@
   min-width: 0px;
   margin-top: 0px;
 }
-.form-input-login-checkout-email{
+
+.form-input-login-checkout-email {
   width: 360px;
   height: 50px;
   margin-top: 20px;
@@ -480,7 +508,7 @@
   background-color: #fdfdff;
 }
 
-.form-input-login-checkout-password{
+.form-input-login-checkout-password {
   width: 360px;
   height: 50px;
   margin-top: 10px;
@@ -491,18 +519,18 @@
   background-color: #fdfdff;
 }
 
-.form-input-login-fName{
-    width: 200px;
-    height: 57px;
-    margin-top: 53px;
-    margin-left: 50px;
-    padding-left: 20px;
-    border-radius: 6px;
-    border: solid 1px #b7b7c7;
-    background-color: #fdfdff;
+.form-input-login-fName {
+  width: 200px;
+  height: 57px;
+  margin-top: 53px;
+  margin-left: 50px;
+  padding-left: 20px;
+  border-radius: 6px;
+  border: solid 1px #b7b7c7;
+  background-color: #fdfdff;
 }
 
-.login-btn-checkout{
+.login-btn-checkout {
   width: 360px;
   height: 50px;
   margin-top: 20px;
@@ -520,29 +548,29 @@
   color: #ffffff;
 }
 
-.form-input-login-lName{
-    width: 200px;
-    height: 57px;
-    margin-top: 53px;
-    margin-left: 20px;
-    padding-left: 20px;
-    border-radius: 6px;
-    border: solid 1px #b7b7c7;
-    background-color: #fdfdff;
+.form-input-login-lName {
+  width: 200px;
+  height: 57px;
+  margin-top: 53px;
+  margin-left: 20px;
+  padding-left: 20px;
+  border-radius: 6px;
+  border: solid 1px #b7b7c7;
+  background-color: #fdfdff;
 }
 
-.form-input-login-password{
-    width: 420px;
-    height: 57px;
-    margin-top: 15px;
-    margin-left: 50px;
-    padding-left: 20px;
-    border-radius: 6px;
-    border: solid 1px #b7b7c7;
-    background-color: #fdfdff;
+.form-input-login-password {
+  width: 420px;
+  height: 57px;
+  margin-top: 15px;
+  margin-left: 50px;
+  padding-left: 20px;
+  border-radius: 6px;
+  border: solid 1px #b7b7c7;
+  background-color: #fdfdff;
 }
 
-.login-btn{
+.login-btn {
   width: 100%;
   height: 57px;
   border-radius: 6px;
@@ -557,7 +585,8 @@
   text-align: center;
   color: #ffffff;
 }
-.login-btn-disabled{
+
+.login-btn-disabled {
   width: 100%;
   height: 57px;
   border-radius: 6px;
@@ -572,7 +601,8 @@
   text-align: center;
   color: #ffffff;
 }
-.forgotPassword-checkout{
+
+.forgotPassword-checkout {
   width: 125px;
   height: 29px;
   margin-top: 20px;
@@ -587,7 +617,8 @@
   text-align: left;
   color: #30d270;
 }
-.forgotPassword{
+
+.forgotPassword {
   width: 100%;
   font-weight: normal;
   font-stretch: normal;
@@ -599,7 +630,8 @@
   font-size: 14px;
   letter-spacing: normal;
 }
-.img-div{
+
+.img-div {
   // background-color: #797b8d;
   // box-sizing: border-box;
   // display: flex;
@@ -621,14 +653,16 @@
 
   margin-top: 20px;
 }
-.m1-logo-auth{
+
+.m1-logo-auth {
   padding-bottom: 20px;
   display: block;
   margin: 0px auto;
   width: 45px;
   height: 85px
 }
-.signUp-login-checkout{
+
+.signUp-login-checkout {
   width: 360px;
   height: 29px;
   margin-top: 20px;
@@ -643,7 +677,8 @@
   text-align: center;
   color: #30d270;
 }
-.copyright-text{
+
+.copyright-text {
   max-width: 100%;
   font-size: 12px;
   text-rendering: geometricprecision;
@@ -666,12 +701,12 @@
   text-transform: uppercase;
 }
 
-.signUp-login-btn-down-lg{
+.signUp-login-btn-down-lg {
   width: 420px;
   height: 29px;
   margin-top: 20px;
   margin-left: 50px;
-  
+
   font-family: $Poppins;
   font-size: 16px;
   font-weight: normal;
@@ -684,35 +719,38 @@
 
   @media #{$xl-layout} {
     display: none;
-   }
-   @media #{$xx-layout} {
-     display: none;
-   }
-   @media #{$xxx-layout} {
+  }
+
+  @media #{$xx-layout} {
     display: none;
   }
-   @media #{$ever-layout} {
+
+  @media #{$xxx-layout} {
+    display: none;
+  }
+
+  @media #{$ever-layout} {
     display: none;
   }
 }
 
-.login-p{
-    width: 400px;
-    height: 45px;
-    font-family: $Poppins;
-    font-size: 13px;
-    margin-top: 10px;
-    margin-left: 50px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #797b8d;
+.login-p {
+  width: 400px;
+  height: 45px;
+  font-family: $Poppins;
+  font-size: 13px;
+  margin-top: 10px;
+  margin-left: 50px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #797b8d;
 }
 
-.login-p-checkout{
+.login-p-checkout {
   width: 360px;
   height: 45px;
   font-family: $Poppins;
@@ -727,16 +765,17 @@
   text-align: center;
   color: #797b8d;
 }
-.login-footer{
-    width: 420px;
-    height: 80px;
-    margin-left: 50px;
-    margin-top: 30px;
-    
+
+.login-footer {
+  width: 420px;
+  height: 80px;
+  margin-left: 50px;
+  margin-top: 30px;
+
 }
 
 
-.login-footer-logo{
+.login-footer-logo {
   width: 55px;
   height: 75px;
   margin-left: 25px;
@@ -745,14 +784,15 @@
 }
 
 
-.login-footer-logo-checkout{
+.login-footer-logo-checkout {
   width: 55px;
   height: 75px;
   margin-left: 40px;
   margin-top: 40px;
   opacity: 50%;
 }
-.login-footer-text{
+
+.login-footer-text {
   margin-top: 10px;
   font-family: $Poppins;
   font-size: 12px;
@@ -768,7 +808,7 @@
 }
 
 
-.login-footer-text-checkout{
+.login-footer-text-checkout {
   margin-top: 10px;
   margin-left: 20px;
   font-family: $Poppins;
@@ -784,7 +824,7 @@
   height: 50px;
 }
 
-.main-banner{
+.main-banner {
 
   //background-size: cover;
   //height: 100vh;
@@ -796,14 +836,15 @@
   // max-height: 100%;
   height: 100vh;
   flex-shrink: 0;
-  
-  background-position: center  !important;
-  background-repeat: no-repeat   !important;
-  background-size: cover   !important;
+
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
 
   @media #{$md-layout} {
     display: none;
   }
+
   @media #{$sm-layout} {
     display: none;
   }
@@ -821,26 +862,27 @@
   color: #ffffff;
 
 
-   @media #{$md-layout} {
-     font-size: 25px;
-   }
-   @media #{$sm-layout} {
-     display: none;
-   }
+  @media #{$md-layout} {
+    font-size: 25px;
+  }
+
+  @media #{$sm-layout} {
+    display: none;
+  }
 }
 
-.form-input-login-code{
-    width: 420px;
-    height: 57px;
-    margin-top: 15px;
-    margin-left: 50px;
-    padding-left: 20px;
-    border-radius: 6px;
-    border: solid 1px #b7b7c7;
-    background-color: #fdfdff;
+.form-input-login-code {
+  width: 420px;
+  height: 57px;
+  margin-top: 15px;
+  margin-left: 50px;
+  padding-left: 20px;
+  border-radius: 6px;
+  border: solid 1px #b7b7c7;
+  background-color: #fdfdff;
 }
 
-.form-input-login-checkout-code{
+.form-input-login-checkout-code {
   width: 360px;
   height: 50px;
   margin-top: 10px;
@@ -852,19 +894,21 @@
 }
 
 
-.hero-image{
+.hero-image {
   height: 100%;
+
   @media #{$xs-layout} {
     background-repeat: no-repeat;
     background-size: cover;
   }
+
   @media #{$md-layout} {
     background-repeat: no-repeat;
     background-size: cover;
   }
 }
 
-.login-heding{
+.login-heding {
   position: absolute;
   // width: 1024px;
   height: 254px;
@@ -878,4 +922,180 @@
   text-align: center;
   color: #ffffff;
   margin-top: 300px;
+}
+
+///////////////////////////////////////////////////////////////////////////////
+.loginContainer {
+  background-color: #d7d9e3;
+  height: 100vh;
+}
+
+
+.loginPageLeft {
+  background-color: $DOCSubThemeColor;
+
+}
+
+.loginPageRight {
+  background-color: $DOCMainThemeColor;
+
+}
+
+.docText {
+  flex-grow: 0;
+  margin-top: 5px;
+  font-family: $Poppins;
+  font-size: 15px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: $BlackText;
+  margin-left: 0px;
+}
+
+.docSubText {
+  flex-grow: 0;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  font-family: $Poppins;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.08px;
+  text-align: center;
+  color: $GrayText;
+}
+
+.copyrightText {
+  width: 354px;
+  height: 14px;
+  flex-grow: 0;
+  margin: 180px 0 0;
+  font-family: $Poppins;
+  font-size: 10px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  text-align: center;
+  color: $LightGrayText;
+}
+
+
+.joinWithUsBTN {
+  width: 144px;
+  height: 39px;
+  margin-top: 35px;
+  background-color: $WhiteBTN;
+}
+
+.joinWithUsTxt {
+  flex-grow: 0;
+  font-family: $Poppins;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: 0.3px;
+  text-align: center;
+  color: $DOCMainThemeColor;
+}
+
+.loginCardInputsField {
+  width: 280px;
+  height: 40px;
+  flex-grow: 0;
+  outline: none;
+  margin-bottom: 15px;
+  padding: 0px 20px 0px 20px;
+  font-family: $Poppins;
+  font-size: 12px;
+  font-weight: normal;
+  border-radius: 54px;
+  box-shadow: 0 8px 24px 0 rgba(212, 218, 235, 0.3);
+  background-color: $WhiteFields;
+  align-items: center;
+  display: flex;
+}
+
+.loginBTN {
+  width: 110px;
+  height: 39px;
+  flex-grow: 0;
+  margin-top: 5px;
+  font-family: $Poppins;
+  font-size: 14px;
+  color: $WhiteText;
+  font-weight: 400;
+  border-radius: 94px;
+  background-color: $DOCMainThemeColor;
+}
+
+.loginText {
+  flex-grow: 0;
+  margin-top: 70px;
+  margin-bottom: 10px;
+  font-family: $Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.08px;
+  text-align: center;
+  color: $BlackText;
+}
+
+.forgotPassword {
+  flex-grow: 0;
+  margin-top: 15px;
+  font-family: $Poppins;
+  font-size: 10px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: $DOCMainThemeColor;
+}
+
+.bannerImage {
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.6;
+  margin-right: 0px;
+}
+
+.floatingBTN {
+  width: 110px;
+  height: 39px;
+  flex-grow: 0;
+  margin-top: 20px;
+  margin-left: 50px;
+  font-family: $Poppins;
+  font-size: 14px;
+  color: $WhiteText;
+  font-weight: 400;
+  border-radius: 94px;
+  background-color: $listStyleColor;
+}
+
+.loginWelcomeText {
+  font-family: $Poppins;
+  font-size: 35px;
+  font-weight: 900;
+  font-stretch: extra-condensed;
+  line-height: normal;
+  text-align: center;
+  color: $WhiteText;
+
 }

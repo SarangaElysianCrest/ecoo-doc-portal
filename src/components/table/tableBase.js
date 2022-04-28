@@ -51,10 +51,10 @@ const TableBase = (props) => {
   ];
 
   const data = [
-    ["Joe James", "Test Corp", "Yonkers", "NY", getAction()],
-    ["John Walsh", "Test Corp", "Hartford", "CT", getAction()],
-    ["Bob Herm", "Test Corp", "Tampa", "FL", getAction()],
-    ["James Houston", "Test Corp", "Dallas", "TX", getAction()],
+    ["Joe James", "Test Corp", "125000-0", "9254222", getAction()],
+    ["John Walsh", "Test Corp", "15201-0", "2545212", getAction()],
+    ["Bob Herm", "Test Corp", "12542-0", "125142", getAction()],
+    ["James Houston", "Test Corp", "542252-0", "124885", getAction()],
   ];
 
   const options = {

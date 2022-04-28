@@ -163,7 +163,7 @@ svg{
 
 .card-2{
   width: 290px;
-  height: 145px;
+  height: 115px;
   border-radius: 16px;
   background-color: #ffffff;
   margin-top: 43px;
@@ -172,17 +172,17 @@ svg{
   @media #{$ever-layout}  {
     margin-right: 40px;
     width: 320px;
-    height: 155px;
+    height:  125px;
   }
   @media #{$xxx-layout}  {
     margin-right: 30px;
     width: 300px;
-    height: 145px;
+    height:  125px;
   }
   @media #{$xx-layout}  {
     margin-right: 30px;
     width: 260px;
-    height: 145px;
+    height:  125px;
   }
   @media #{$xl-layout}  {
     margin-right: 10px;
@@ -458,7 +458,7 @@ svg{
 
 
 .card-4{
-  width: 349px;
+  width: 350px;
   height: 180px;
   border-radius: 16px;
   background-color: #ffffff;
@@ -469,12 +469,12 @@ svg{
 
   @media #{$ever-layout}  {
     margin-right: 20px;
-    width: 380px;
+    width: 350px;
     height: 200px;
   }
   @media #{$xxx-layout}  {
     margin-right: 20px;
-    width: 380px;
+    width: 350px;
     height: 190px;
   }
   @media #{$xx-layout}  {
@@ -978,6 +978,7 @@ svg{
   height: 53px;
 }
 .merchant-data{
+  height: 31px;
   // padding-top: 10px;
   // padding-bottom: 10px;
   // margin-top: 8px;
@@ -1825,4 +1826,108 @@ hr{
   letter-spacing: 3.92px;
   text-align: center;
   color: #fff;
+}
+
+
+.timePeriodSelectionTxt{
+  font-family: $Poppins;
+  font-size: 13px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.91;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4a4a59;
+  
+}
+
+.timePeriodSelectionTxtCliked{
+  font-family: $Poppins;
+  font-size: 13px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.91;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  
+}
+
+.timePeriodSelectionMainDiv{
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.timePeriodSelectionDiv{
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.timePeriodSelectionDivCliked{
+  background-color: #5465ff;
+  border-radius: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.statCard{
+  width: 240px;
+  height: 80px;
+  border-radius: 16px;
+  background-color: #ffffff;
+  margin-right: 20px;
+  box-shadow: 0px 18px 42px 0 rgba(59, 77, 114, 0.08);
+}
+
+.StatCardText{
+  font-family: $Poppins;
+  font-size: 10px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.91;
+  letter-spacing: normal;
+  color: #959595;
+}
+
+.StatCardValue{
+  font-family: $Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.91;
+  letter-spacing: 1px;
+  color: #000000;
+}
+
+.StatCardPresentage{
+  font-family: $Poppins;
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.91;
+  letter-spacing: normal;
+  color: #646eff;
+}
+
+.DashDetailCardHeader{
+  margin-top: 6px;
+  font-family: $Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.91;
+  letter-spacing: normal;
+  color: #959595;
 }

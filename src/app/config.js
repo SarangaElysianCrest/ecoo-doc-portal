@@ -3,9 +3,15 @@ import EcooImage from "../assets/images/DashboardIcons/ecooImage.png";
 import TrqqcIcon from "../assets/images/DashboardIcons/trqqcIcon.png";
 import prifileIcon from "../assets/images/DashboardIcons/prifileIcon.png";
 import logOutIcon from "../assets/images/DashboardIcons/logOutIcon.png";
+import MenuIcon from "../assets/images/DashboardIcons/MenuIcon.png";
 
 const config = {
   drawer: [
+    {
+      icon: MenuIcon,
+      label: "Overview",
+      path: "/web/overview",
+    },
     {
       icon: ComapyregIcon,
       label: "COMP. REG.",

@@ -1,6 +1,6 @@
 import React from "react";
 import { Route } from "react-router-dom";
-import Section, { SectionColumn, SectionRow } from "../../../../components/section";
+import { SectionRow } from "../../../../components/section";
 import RegApprovalProcessStep01 from "./components/RegApprovalProcessStep01";
 import RegApprovalProcessStep02 from "./components/RegApprovalProcessStep02";
 import RegApprovalProcessStep03 from "./components/RegApprovalProcessStep03";
