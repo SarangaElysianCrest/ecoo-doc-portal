@@ -1,0 +1,201 @@
+.paymentHstoryText{
+  font-family: $Poppins;
+  font-size: 14px;
+  margin-left: 40px;
+  font-weight: 900;
+  letter-spacing: 0.4px;
+  color: #2a2b34;
+}
+.sorttext{
+    font-family: $Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #474858;
+    margin-left: 30px;
+
+    @media #{$xsm-layout}  {
+      margin-left: 0px;
+  
+    }
+    @media #{$xxs-layout}  {
+      margin-left: 0px;
+  
+    }
+    @media #{$xxxs-layout}  {
+      margin-left: 0px;
+  
+    }
+}
+.sort-inside-text{
+  font-family: $Poppins;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #474858;
+}
+.sort-btn{
+
+    width: 150px;
+    height: 38px;
+    // margin-left: 10px;
+    border-radius: 36px;
+    margin-top: -9px;
+    background-color: #e5e5ee;
+}
+
+.sort-select{
+  background-color: #e5e5ee;
+  font-family: $Poppins;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #444656;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.section-row-ph{
+    padding: 37px 0px 0px 0px;
+    @media #{$xs-layout}  {
+     padding: 0px;
+    }
+  }
+
+  .search-ph {
+    width: 238px;
+    height: 38px;
+    margin-left: 10px;
+    margin-top: -9px;
+    padding-top: 8px;
+    padding-left: 14px;
+    border-radius: 36px;
+    background-color: #ffffff;
+
+
+}
+
+  .searchInput-ph{
+    width: 150px;
+    height: 20px;
+    outline: none;
+    background-color: #ffffff;
+    color: #8b8d9f;
+    font-family: $Poppins;
+    font-weight: 300;
+    letter-spacing: 0.4px;
+    font-size: 14px;
+    margin-right: 8px;
+    margin-top: 2px;
+}
+.searchIcon-ph{
+    color: #8b8d9f;
+    margin-left: 30px;
+    margin-top: 3px;
+    font-size: 16px;
+}
+
+.purchase-table{
+  width: 1055px;
+  // justify-content: flex-end;
+  @media #{$xxs-layout}  {
+    width: 300px;
+  }
+  @media #{$xsm-layout}  {
+    width: 300px;
+  }
+  @media #{$xxxs-layout}  {
+    width: 300px;
+  }
+}
+.purchase-table-modal{
+  width: 900px
+}
+
+.box{
+  width: 201px;
+  height: 135px;
+  margin: 90px 33px 9px 294px;
+  padding: 4px 7px 41px 48px;
+  box-shadow: 0px 24px 72px 0 rgba(150, 152, 169, 0.33);
+  background-color: #ffffff;
+}
+
+.modal-icon{
+  color:  rgb(128, 128, 128);
+}
+
+
+.modal-content{
+  /*padding: 0px 24px;*/
+  /*margin-top: -30px;*/
+  width: 100%
+}
+.modal-header{
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #111816;
+  font-family: $Poppins;
+  font-size: 25px;
+  margin-bottom: 2vh;
+  vertical-align: middle;
+
+}
+
+.Add-step-sub-head{
+  font-family: $Poppins;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #666679;
+}
+// .card-label{
+//   width: 100%;
+//   text-align: center;
+//   background-color: #8b8d9f;
+//   margin-left: 30px;
+// }
+.modal-sub-header{
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  color:  rgb(0, 0, 0);
+  font-family: $Poppins;
+  text-align: left;
+}
+.modal-detail-text{
+  font-weight: normal;
+  font-family: $Poppins;
+  order: 1;
+  padding-left: 2px;
+  pointer-events: none;
+  text-shadow: none;
+  text-transform: capitalize;
+  transform-origin: left top;
+  transition: all 200ms ease 0s;
+  line-height: 25px;
+  color: rgb(128, 128, 128);
+  opacity: 1;
+  transform: scale(0.8) translate3d(0px, 5px, 0px);
+  text-align: left;
+}

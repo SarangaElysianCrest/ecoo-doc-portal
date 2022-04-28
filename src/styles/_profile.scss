@@ -1,0 +1,178 @@
+.profile-col{
+  width: 48%;
+  height: 98px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  margin-right: 2px;
+  margin-bottom: 2px;
+  @media #{$xs-layout}  {
+    width: 98%;
+  } 
+  @media #{$md-layout}  {
+    width: 98%;
+  }
+}
+.profile-col-2{
+  width: 49%;
+  min-height: 65px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  margin-right: 2px;
+  margin-bottom: 2px;
+}
+.profile-col-password{
+  width: 505px;
+  height:200px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  margin-right: 2px;
+  margin-bottom: 2px;
+}
+.button-col{
+  width: 505px;
+  height: auto;
+  border-radius: 6px;
+  margin-right: 2px;
+  margin-bottom: 2px;
+}
+.profile-name{
+  font-family: $Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2a2b34;
+}
+.Welcome-to-M1{
+  font-family: $Poppins;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2a2b34;
+  font-size: 19px;
+  font-weight: bold;
+}
+.Welcome-to-M1-sub-1{
+  font-family: $Poppins;
+  font-size: 12px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #afb1c1;
+  margin-bottom: 3px;
+}
+.Welcome-to-M1-sub-2{
+  font-family: $Poppins;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 16px;
+  color: #2a2b34;
+  background-color: #ffffff;
+  width: 100%;
+}
+.pro-pic{
+    background-color: rgb(4, 114, 210);;
+}
+
+.My-Profile {
+  font-family: $Poppins;
+  font-size:14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2a2b34;
+
+}
+.Welcome-to-M1-password{
+  width: 150px;
+  font-family: $Poppins;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 4px;
+  text-align: left;
+  color: #2a2b34;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.Change {
+  width: 88px;
+  height: 23px;
+  font-family: $Poppins;
+  font-size:11px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.64;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2fd26f;
+  cursor: pointer;
+}
+.Change-popup {
+  height: 23px;
+  font-family: $Poppins;
+  font-size:11px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.64;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2fd26f;
+  cursor: pointer;
+}
+.profile-save-btn{
+    width: 134px;
+    min-width: 100px;
+    border-radius: 6px;
+    min-height: 40px;
+    background: #2fd26f;
+    color: rgb(255, 255, 255);
+}
+.profile-save-cancel-btn{
+  width: fit-content;
+  background-color: transparent;
+  padding: 0px;
+  color: rgb(71, 71, 71);
+  font-weight: 400;
+  margin-right: 24px;
+}
+
+.main-form{
+  background-color: #f0f2f5;
+  padding: 10px;
+  height: 100%;
+}
+.city-col{
+  border-right: 1px solid #1b1b1b;
+}
+
+.default-pin{
+  color: rgb(4, 114, 210);
+  background-color: rgb(241, 248, 254);
+  border-radius: 4px;
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 600;
+  padding: 6px 10px;
+  text-transform: uppercase;
+  vertical-align: middle;
+  margin-right: 24px;
+}

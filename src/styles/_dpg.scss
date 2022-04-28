@@ -1,0 +1,77 @@
+
+#direct_pay_container{
+    background-color: white;
+
+}
+
+#dpCardContainer{
+    // position: absolute;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.315);
+    .div{   
+        width: 100%;
+        
+    }
+}
+#dp_cardEnterContainer {
+    min-width: 30vw!important;
+    .row{
+        min-height: 80px;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: auto;
+        .col {
+            // align-self: center!important;
+            
+            :hover{
+                background-color: white;
+            }
+        }    
+    }
+    :hover{
+        background-color: white;
+    }
+
+}
+
+.db_styles{
+    .row{
+        margin-left: 0!important;    
+        justify-content: flex-start!important;
+        div{
+            align-self: center!important;
+
+        }
+    }
+    .col-4,
+    .col-6{
+        input,
+        select{
+            // min-width: 100px!important;
+        }
+        max-width: none!important;
+        justify-content: space-between;
+    }
+    
+}
+.uk-card-footer{
+    div:first-of-type{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+#txtVersion,
+.uk-text-middle,
+.cardFont{
+    color: black;
+    font-size: small!important;
+}
+
+#number{
+    // min-width: 100%!important;
+}
+
+#dpMDetails{
+    display: none!important;
+}

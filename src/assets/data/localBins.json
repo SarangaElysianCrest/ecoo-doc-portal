@@ -1,0 +1,1134 @@
+[
+  {
+    "BIN LIST": 469176,
+    "Bank": "Amana Bank Ltd",
+    "CARD TYPE": "DEBIT"
+  },
+  {
+    "BIN LIST": 476649,
+    "Bank": "Axis Bank Limited",
+    "CARD TYPE": "DEBIT"
+  },
+  {
+    "BIN LIST": 476650,
+    "Bank": "Axis Bank Limited",
+    "CARD TYPE": "DEBIT"
+  },
+  {
+    "BIN LIST": 436193,
+    "Bank": "BANK OF CEYLON",
+    "CARD TYPE": "CREDIT"
+  },
+  {
+    "BIN LIST": 454428,
+    "Bank": "BANK OF CEYLON",
+    "CARD TYPE": "CREDIT"
+  },
+  {
+    "BIN LIST": 454429,
+    "Bank": "BANK OF CEYLON",
+    "CARD TYPE": "CREDIT"
+  },
+  {
+    "BIN LIST": 455559,
+    "Bank": "BANK OF CEYLON",
+    "CARD TYPE": "CREDIT"
+  },
+  {
+    "BIN LIST": 455560,
+    "Bank": "BANK OF CEYLON",
+    "CARD TYPE": "CREDIT"
+  },
+  {
+    "BIN LIST": 463785,
+    "Bank": "BANK OF CEYLON",
+    "CARD TYPE": "CREDIT"
+  },
+  {
+    "BIN LIST": 483557,
+    "Bank": "BANK OF CEYLON",
+    "CARD TYPE": "CREDIT"
+  },
+  {
+    "BIN LIST": 515685,
+    "Bank": "BANK OF CEYLON",
+    "CARD TYPE": "CREDIT"
+  },
+  {
+    "BIN LIST": 517661,
+    "Bank": "BANK OF CEYLON",
+    "CARD TYPE": "CREDIT"
+  },
+  {
+    "BIN LIST": 517708,
+    "Bank": "BANK OF CEYLON",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 407653,
+    "Bank": "BANK OF CEYLON",
+    "CARD TYPE": "DEBIT"
+
+  },
+  {
+    "BIN LIST": 408854,
+    "Bank": "BANK OF CEYLON",
+    "CARD TYPE": "DEBIT"
+
+  },
+  {
+    "BIN LIST": 460559,
+    "Bank": "BANK OF CEYLON",
+    "CARD TYPE": "DEBIT"
+
+  },
+  {
+    "BIN LIST": 462970,
+    "Bank": "BANK OF CEYLON",
+    "CARD TYPE": "DEBIT"
+
+  },
+  {
+    "BIN LIST": 468208,
+    "Bank": "BANK OF CEYLON",
+    "CARD TYPE": "DEBIT"
+
+  },
+  {
+    "BIN LIST": 521079,
+    "Bank": "BANK OF CEYLON",
+    "CARD TYPE": "DEBIT"
+
+  },
+  {
+    "BIN LIST": 527370,
+    "Bank": "BANK OF CEYLON",
+    "CARD TYPE": "DEBIT"
+
+  },
+  {
+    "BIN LIST": 589974,
+    "Bank": "BANK OF CEYLON",
+    "CARD TYPE": "DEBIT"
+
+  },
+  {
+    "BIN LIST": 532726,
+    "Bank": "BANK OF CEYLON",
+    "CARD TYPE": "DEBIT"
+
+  },
+  {
+    "BIN LIST": 534274,
+    "Bank": "BANK OF CEYLON",
+    "CARD TYPE": "DEBIT"
+
+  },
+  {
+    "BIN LIST": 539921,
+    "Bank": "BANK OF CEYLON",
+    "CARD TYPE": "DEBIT"
+
+  },
+  {
+    "BIN LIST": 546523,
+    "Bank": "BANK OF CEYLON",
+    "CARD TYPE": "DEBIT"
+
+  },
+  {
+    "BIN LIST": 557583,
+    "Bank": "BANK OF CEYLON",
+    "CARD TYPE": "DEBIT"
+
+  },
+  {
+    "BIN LIST": 408854,
+    "Bank": "BANK OF CEYLON",
+    "CARD TYPE": "PREPAID"
+
+  },
+  {
+    "BIN LIST": 416801,
+    "Bank": "BANK OF CEYLON",
+    "CARD TYPE": "PREPAID"
+
+  },
+  {
+    "BIN LIST": 554214,
+    "Bank": "Cargills Bank",
+    "CARD TYPE": "Debit World"
+
+  },
+  {
+    "BIN LIST": 523670,
+    "Bank": "Cargills Bank",
+    "CARD TYPE": "Debit Platinum"
+
+  },
+  {
+    "BIN LIST": 516402,
+    "Bank": "Cargills Bank",
+    "CARD TYPE": "Credit Titanium"
+
+  },
+  {
+    "BIN LIST": 516659,
+    "Bank": "Cargills Bank",
+    "CARD TYPE": "Credit World"
+
+  },
+  {
+    "BIN LIST": 420223,
+    "Bank": "CENTRAL FINANCE CO. PLC",
+    "CARD TYPE": "DEBIT"
+
+  },
+  {
+    "BIN LIST": 484072,
+    "Bank": "Citizens Development Business Finance PLC",
+    "CARD TYPE": "DEBIT"
+
+  },
+  {
+    "BIN LIST": 432571,
+    "Bank": "Commercial Bank of Ceylon PLC",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 432572,
+    "Bank": "Commercial Bank of Ceylon PLC",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 437840,
+    "Bank": "Commercial Bank of Ceylon PLC",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 510484,
+    "Bank": "COMMERCIAL BANK OF CEYLON PLC",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 550489,
+    "Bank": "COMMERCIAL BANK OF CEYLON PLC",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 550490,
+    "Bank": "COMMERCIAL BANK OF CEYLON PLC",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 550598,
+    "Bank": "COMMERCIAL BANK OF CEYLON PLC",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 552773,
+    "Bank": "COMMERCIAL BANK OF CEYLON PLC",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 559574,
+    "Bank": "COMMERCIAL BANK OF CEYLON PLC - Master World",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 559576,
+    "Bank": "COMMERCIAL BANK OF CEYLON PLC - Master World",
+    "CARD TYPE": "CREDIT"
+  },
+  {
+    "BIN LIST": 496699,
+    "Bank": "COMMERCIAL BANK OF CEYLON PLC - Visa Infinite",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 421689,
+    "Bank": "Commercial Bank of Ceylon PLC",
+    "CARD TYPE": "DEBIT"
+
+  },
+  {
+    "BIN LIST": 535927,
+    "Bank": "COMMERCIAL BANK OF CEYLON PLC",
+    "CARD TYPE": "DEBIT"
+
+  },
+  {
+    "BIN LIST": 553806,
+    "Bank": "COMMERCIAL BANK OF CEYLON PLC",
+    "CARD TYPE": "DEBIT"
+
+  },
+  {
+    "BIN LIST": 559728,
+    "Bank": "COMMERCIAL BANK OF CEYLON PLC",
+    "CARD TYPE": "DEBIT"
+
+  },
+  {
+    "BIN LIST": 450089,
+    "Bank": "Commercial Bank of Ceylon PLC",
+    "CARD TYPE": "DEBIT ELITE"
+
+  },
+  {
+    "BIN LIST": 476673,
+    "Bank": "Commercial Bank of Ceylon PLC",
+    "CARD TYPE": "DEBIT PLATINUM"
+
+  },
+  {
+    "BIN LIST": 626233,
+    "Bank": "COMMERCIAL BANK OF CEYLON PLC",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 626234,
+    "Bank": "COMMERCIAL BANK OF CEYLON PLC",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 626235,
+    "Bank": "COMMERCIAL BANK OF CEYLON PLC",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 629176,
+    "Bank": "COMMERCIAL BANK OF CEYLON PLC",
+    "CARD TYPE": "DEBIT"
+
+  },
+  {
+    "BIN LIST": 629177,
+    "Bank": "COMMERCIAL BANK OF CEYLON PLC",
+    "CARD TYPE": "DEBIT"
+
+  },
+  {
+    "BIN LIST": 419802,
+    "Bank": "Commercial Leasing and Finance PLC",
+    "CARD TYPE": "DEBIT"
+
+  },
+  {
+    "BIN LIST": 438043,
+    "Bank": "Dfcc Vardhana Bank Limited",
+    "CARD TYPE": "CREDIT Signature"
+
+  },
+  {
+    "BIN LIST": 461436,
+    "Bank": "Dfcc Vardhana Bank Limited",
+    "CARD TYPE": "CREDIT Infinite"
+
+  },
+  {
+    "BIN LIST": 483558,
+    "Bank": "Dfcc Vardhana Bank Limited",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 483559,
+    "Bank": "Dfcc Vardhana Bank Limited",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 489011,
+    "Bank": "Dfcc Vardhana Bank Limited",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 442413,
+    "Bank": "Dfcc Vardhana Bank Limited",
+    "CARD TYPE": "DEBIT"
+
+  },
+  {
+    "BIN LIST": 415738,
+    "Bank": "Hatton National Bank PLC Visa Classic / Royal College",
+    "CARD TYPE": "CREDIT Visa Classic / Royal College"
+
+  },
+  {
+    "BIN LIST": 415739,
+    "Bank": "Hatton National Bank PLC Visa Gold/ AAT /ODEL",
+    "CARD TYPE": "CREDIT Visa Gold/ AAT /ODEL"
+
+  },
+  {
+    "BIN LIST": 428417,
+    "Bank": "Hatton National Bank PLC Visa Platinum/ CA Sri Lanka / Royal College / Sri Lankan Air Lines/",
+    "CARD TYPE": "CREDIT Visa Platinum/ CA Sri Lanka / Royal College / Sri Lankan Air Lines/\nPAPAL"
+
+  },
+  {
+    "BIN LIST": 472636,
+    "Bank": "Hatton National Bank PLC Visa Infinite",
+    "CARD TYPE": "CREDIT Visa Infinite"
+
+  },
+  {
+    "BIN LIST": 488910,
+    "Bank": "Hatton National Bank PLC Visa Signature/ Sri Lankan Air Lines/ CA Sri Lanka",
+    "CARD TYPE": "CREDIT Visa Signature/ Sri Lankan Air Lines/ CA Sri Lanka"
+
+  },
+  {
+    "BIN LIST": 510491,
+    "Bank": "HATTON NATIONAL BANK PLC",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 542190,
+    "Bank": "HATTON NATIONAL BANK PLC",
+    "CARD TYPE": "CREDIT Ranaviru"
+
+  },
+  {
+    "BIN LIST": 517210,
+    "Bank": "HATTON NATIONAL BANK PLC MasterCard Corporate",
+    "CARD TYPE": "CREDIT MasterCard Corporate"
+
+  },
+  {
+    "BIN LIST": 517402,
+    "Bank": "HATTON NATIONAL BANK PLC MasterCard World",
+    "CARD TYPE": "CREDIT MasterCard World"
+
+  },
+  {
+    "BIN LIST": 548804,
+    "Bank": "HATTON NATIONAL BANK PLC MasterCard Local",
+    "CARD TYPE": "CREDIT MasterCard Local"
+
+  },
+  {
+    "BIN LIST": 548805,
+    "Bank": "HATTON NATIONAL BANK PLC MasterCard Gold",
+    "CARD TYPE": "CREDIT MasterCard Gold"
+
+  },
+  {
+    "BIN LIST": 548806,
+    "Bank": "HATTON NATIONAL BANK PLC MasterCard International",
+    "CARD TYPE": "CREDIT MasterCard International"
+
+  },
+  {
+    "BIN LIST": 548807,
+    "Bank": "HATTON NATIONAL BANK PLC MasterCard International Gold",
+    "CARD TYPE": "CREDIT MasterCard International Gold"
+
+  },
+  {
+    "BIN LIST": 558339,
+    "Bank": "HATTON NATIONAL BANK PLC MasterCard International Gold",
+    "CARD TYPE": "CREDIT Mastercard Business"
+
+  },
+  {
+    "BIN LIST": 421675,
+    "Bank": "HATTON NATIONAL BANK PLC",
+    "CARD TYPE": "DEBIT"
+
+  },
+  {
+    "BIN LIST": 428321,
+    "Bank": "Hatton National Bank PLC",
+    "CARD TYPE": "DEBIT Domestic Debit"
+
+  },
+  {
+    "BIN LIST": 428398,
+    "Bank": "Hatton National Bank PLC",
+    "CARD TYPE": "DEBIT Classic Debit"
+
+  },
+  {
+    "BIN LIST": 458868,
+    "Bank": "Hatton National Bank PLC",
+    "CARD TYPE": "DEBIT Platinum Debit"
+
+  },
+  {
+    "BIN LIST": 455516,
+    "Bank": "Hatton National Bank PLC",
+    "CARD TYPE": "DEBIT  Salary Smart"
+
+  },
+  {
+    "BIN LIST": 462455,
+    "Bank": "Hatton National Bank PLC",
+    "CARD TYPE": "DEBIT"
+
+  },
+  {
+    "BIN LIST": 470920,
+    "Bank": "Hatton National Bank PLC",
+    "CARD TYPE": "DEBIT Wally-E Pre Paid"
+
+  },
+  {
+    "BIN LIST": 514346,
+    "Bank": "Hatton National Bank PLC",
+    "CARD TYPE": "DEBIT"
+
+  },
+  {
+    "BIN LIST": 518256,
+    "Bank": "Hatton National Bank PLC",
+    "CARD TYPE": "DEBIT"
+
+  },
+  {
+    "BIN LIST": 462454,
+    "Bank": "Hatton National Bank PLC",
+    "CARD TYPE": "PREPAID"
+
+  },
+  {
+    "BIN LIST": 490018,
+    "Bank": "L B FINANCE PLC",
+    "CARD TYPE": "DEBIT"
+
+  },
+  {
+    "BIN LIST": 410095,
+    "Bank": "Lanka Orix Finance PLC",
+    "CARD TYPE": "DEBIT"
+
+  },
+  {
+    "BIN LIST": 416802,
+    "Bank": "National Development Bank PLC",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 437555,
+    "Bank": "National Development Bank PLC",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 437556,
+    "Bank": "National Development Bank PLC",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 438535,
+    "Bank": "National Development Bank PLC",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 481544,
+    "Bank": "National Development Bank PLC",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 481545,
+    "Bank": "National Development Bank PLC",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 481546,
+    "Bank": "National Development Bank PLC",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 404186,
+    "Bank": "National Development Bank PLC",
+    "CARD TYPE": "DEBIT"
+
+  },
+  {
+    "BIN LIST": 418122,
+    "Bank": "National Development Bank PLC",
+    "CARD TYPE": "PREPAID"
+
+  },
+  {
+    "BIN LIST": 418247,
+    "Bank": "National Development Bank PLC",
+    "CARD TYPE": "PREPAID"
+
+  },
+  {
+    "BIN LIST": 483560,
+    "Bank": "National Savings Bank",
+    "CARD TYPE": "DEBIT"
+
+  },
+  {
+    "BIN LIST": 517580,
+    "Bank": "National Savings Bank",
+    "CARD TYPE": "DEBIT"
+
+  },
+  {
+    "BIN LIST": 531191,
+    "Bank": "National Savings Bank",
+    "CARD TYPE": "DEBIT"
+
+  },
+  {
+    "BIN LIST": 539986,
+    "Bank": "National Savings Bank",
+    "CARD TYPE": "DEBIT"
+
+  },
+  {
+    "BIN LIST": 552474,
+    "Bank": "NATIONS TRUST BANK PLC",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 524615,
+    "Bank": "NATIONS TRUST BANK PLC",
+    "CARD TYPE": "DEBIT"
+
+  },
+  {
+    "BIN LIST": 526927,
+    "Bank": "NATIONS TRUST BANK PLC",
+    "CARD TYPE": "DEBIT"
+
+  },
+  {
+    "BIN LIST": 533140,
+    "Bank": "NATIONS TRUST BANK PLC",
+    "CARD TYPE": "DEBIT"
+
+  },
+  {
+    "BIN LIST": 513364,
+    "Bank": "NATIONS TRUST BANK PLC",
+    "CARD TYPE": "PREPAID"
+
+  },
+  {
+    "BIN LIST": 516582,
+    "Bank": "NATIONS TRUST BANK PLC",
+    "CARD TYPE": "PREPAID"
+
+  },
+  {
+    "BIN LIST": 442442,
+    "Bank": "PAN Asia Banking Corporation PLC",
+    "CARD TYPE": "DEBIT"
+
+  },
+  {
+    "BIN LIST": 454486,
+    "Bank": "People's Bank",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 454487,
+    "Bank": "People's Bank",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 454488,
+    "Bank": "People's Bank",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 454489,
+    "Bank": "People's Bank",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 405534,
+    "Bank": "People's Bank",
+    "CARD TYPE": "DEBIT"
+
+  },
+  {
+    "BIN LIST": 436561,
+    "Bank": "People's Bank",
+    "CARD TYPE": "DEBIT"
+
+  },
+  {
+    "BIN LIST": 469342,
+    "Bank": "People's Bank",
+    "CARD TYPE": "DEBIT"
+
+  },
+  {
+    "BIN LIST": 512940,
+    "Bank": "People's Bank",
+    "CARD TYPE": ""
+
+  },
+  {
+    "BIN LIST": 402672,
+    "Bank": "SAMPATH BANK PLC",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 437509,
+    "Bank": "SAMPATH BANK PLC",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 450582,
+    "Bank": "SAMPATH BANK PLC",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 486295,
+    "Bank": "SAMPATH BANK PLC",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 486296,
+    "Bank": "SAMPATH BANK PLC",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 488958,
+    "Bank": "SAMPATH BANK PLC",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 489979,
+    "Bank": "SAMPATH BANK PLC",
+    "CARD TYPE": "CREDIT"
+  },
+  {
+    "BIN LIST": 489980,
+    "Bank": "SAMPATH BANK PLC",
+    "CARD TYPE": "CREDIT"
+  },
+  {
+    "BIN LIST": 521597,
+    "Bank": "SAMPATH BANK PLC",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 522141,
+    "Bank": "SAMPATH BANK PLC",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 524051,
+    "Bank": "SAMPATH BANK PLC",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 524522,
+    "Bank": "SAMPATH BANK PLC",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 534178,
+    "Bank": "SAMPATH BANK PLC",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 540630,
+    "Bank": "SAMPATH BANK PLC",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 542127,
+    "Bank": "SAMPATH BANK PLC",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 547165,
+    "Bank": "SAMPATH BANK PLC",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 552805,
+    "Bank": "SAMPATH BANK PLC",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 559316,
+    "Bank": "SAMPATH BANK PLC",
+    "CARD TYPE": "CREDIT"
+  },
+  {
+    "BIN LIST": 413541,
+    "Bank": "SAMPATH BANK PLC",
+    "CARD TYPE": "DEBIT"
+
+  },
+  {
+    "BIN LIST": 453213,
+    "Bank": "SAMPATH BANK PLC",
+    "CARD TYPE": "DEBIT  Platinum"
+
+  },
+  {
+    "BIN LIST": 538147,
+    "Bank": "SAMPATH BANK PLC",
+    "CARD TYPE": "DEBIT  Platinum"
+
+  },
+  {
+    "BIN LIST": 457551,
+    "Bank": "Sanasa Development Bank Ltd.",
+    "CARD TYPE": "DEBIT"
+
+  },
+  {
+    "BIN LIST": 452064,
+    "Bank": "Senkadagala Finance PLC",
+    "CARD TYPE": "DEBIT"
+
+  },
+  {
+    "BIN LIST": 451190,
+    "Bank": "SEYLAN BANK PLC",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 451192,
+    "Bank": "SEYLAN BANK PLC",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 451193,
+    "Bank": "SEYLAN BANK PLC",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 470972,
+    "Bank": "SEYLAN BANK PLC",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 524118,
+    "Bank": "SEYLAN BANK PLC",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 530091,
+    "Bank": "SEYLAN BANK PLC",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 541902,
+    "Bank": "SEYLAN BANK PLC",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 409641,
+    "Bank": "SEYLAN BANK PLC",
+    "CARD TYPE": "DEBIT"
+
+  },
+  {
+    "BIN LIST": 414395,
+    "Bank": "SEYLAN BANK PLC",
+    "CARD TYPE": "DEBIT"
+
+  },
+  {
+    "BIN LIST": 451195,
+    "Bank": "SEYLAN BANK PLC",
+    "CARD TYPE": "DEBIT"
+
+  },
+  {
+    "BIN LIST": 521085,
+    "Bank": "SEYLAN BANK PLC",
+    "CARD TYPE": "DEBIT"
+
+  },
+  {
+    "BIN LIST": 557676,
+    "Bank": "SEYLAN BANK PLC",
+    "CARD TYPE": "DEBIT"
+
+  },
+  {
+    "BIN LIST": 421347,
+    "Bank": "SEYLAN BANK PLC",
+    "CARD TYPE": "PREPAID"
+
+  },
+  {
+    "BIN LIST": 421390,
+    "Bank": "SEYLAN BANK PLC",
+    "CARD TYPE": "PREPAID"
+
+  },
+  {
+    "BIN LIST": 421391,
+    "Bank": "SEYLAN BANK PLC",
+    "CARD TYPE": "PREPAID"
+
+  },
+  {
+    "BIN LIST": 421608,
+    "Bank": "SEYLAN BANK PLC",
+    "CARD TYPE": "PREPAID"
+
+  },
+  {
+    "BIN LIST": 421658,
+    "Bank": "SEYLAN BANK PLC",
+    "CARD TYPE": "PREPAID"
+
+  },
+  {
+    "BIN LIST": 437796,
+    "Bank": "SEYLAN BANK PLC",
+    "CARD TYPE": "PREPAID"
+
+  },
+  {
+    "BIN LIST": 453771,
+    "Bank": "SEYLAN BANK PLC",
+    "CARD TYPE": "PREPAID"
+
+  },
+  {
+    "BIN LIST": 453772,
+    "Bank": "SEYLAN BANK PLC",
+    "CARD TYPE": "PREPAID"
+
+  },
+  {
+    "BIN LIST": 470949,
+    "Bank": "SEYLAN BANK PLC",
+    "CARD TYPE": "PREPAID"
+
+  },
+  {
+    "BIN LIST": 416228,
+    "Bank": "SINGER FINANCE (LANKA) PLC",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 416229,
+    "Bank": "SINGER FINANCE (LANKA) PLC",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 419982,
+    "Bank": "STANDARD CHARTERED BANK",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 419983,
+    "Bank": "STANDARD CHARTERED BANK",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 428421,
+    "Bank": "STANDARD CHARTERED BANK",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 450594,
+    "Bank": "STANDARD CHARTERED BANK",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 450595,
+    "Bank": "STANDARD CHARTERED BANK",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 541374,
+    "Bank": "STANDARD CHARTERED BANK",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 541973,
+    "Bank": "STANDARD CHARTERED BANK",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 421533,
+    "Bank": "STANDARD CHARTERED BANK",
+    "CARD TYPE": "DEBIT"
+
+  },
+  {
+    "BIN LIST": 421534,
+    "Bank": "STANDARD CHARTERED BANK",
+    "CARD TYPE": "DEBIT"
+
+  },
+  {
+    "BIN LIST": 421535,
+    "Bank": "STANDARD CHARTERED BANK",
+    "CARD TYPE": "DEBIT"
+
+  },
+  {
+    "BIN LIST": 436573,
+    "Bank": "THE HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 467913,
+    "Bank": "THE HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED",
+    "CARD TYPE": "CREDIT",
+
+  },
+  {
+    "BIN LIST": 472076,
+    "Bank": "THE HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 491013,
+    "Bank": "THE HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 491014,
+    "Bank": "THE HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 492293,
+    "Bank": "THE HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 517964,
+    "Bank": "THE HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 542937,
+    "Bank": "THE HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 542949,
+    "Bank": "THE HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED",
+    "CARD TYPE": "CREDIT"
+
+  },
+  {
+    "BIN LIST": 464947,
+    "Bank": "THE HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED",
+    "CARD TYPE": "DEBIT"
+
+  },
+  {
+    "BIN LIST": 464948,
+    "Bank": "THE HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED",
+    "CARD TYPE": "DEBIT"
+
+  },
+  {
+    "BIN LIST": 464949,
+    "Bank": "THE HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED",
+    "CARD TYPE": "DEBIT"
+
+  },
+  {
+    "BIN LIST": 464950,
+    "Bank": "THE HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED",
+    "CARD TYPE": "DEBIT"
+  },
+  {
+    "BIN LIST": 484771,
+    "Bank": "THE HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED",
+    "CARD TYPE": "DEBIT"
+
+  },
+  {
+    "BIN LIST": 464178,
+    "Bank": "Union Bank of Colombo Ltd",
+    "CARD TYPE": "DEBIT"
+
+  },
+  {
+    "BIN LIST": 520202,
+    "Bank": "LOLC Finance",
+    "CARD TYPE": "DEBIT"
+  },
+  {
+    "BIN LIST": 519479,
+    "Bank": "CITIZEN DEVELOPMENT",
+    "CARD TYPE": "CREDIT"
+  },
+  {
+    "BIN LIST": 554642,
+    "Bank": "CITIZEN DEVELOPMENT",
+    "CARD TYPE": "CREDIT"
+  }
+]

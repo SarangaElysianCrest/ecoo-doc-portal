@@ -1,0 +1,1828 @@
+svg{
+  cursor: pointer;
+}
+
+.spending-cards{
+  @media #{$xs-layout}  {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  @media #{$xxs-layout}  {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  @media #{$xsm-layout}  {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  @media #{$xxxs-layout}  {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+.heading-1{
+  font-family: $Poppins;
+  color: $textOne;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 16px;
+  @media #{$mg-layout}  {
+    font-size: 14px;
+  }
+  @media #{$xs-layout}  {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+}
+.heading-2{
+  font-family: $Poppins;
+  color: $textTwo;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 19px;
+}
+.card-1{
+  width: 290px;
+  height: 145px;
+  border-radius: 16px;
+  background-color: #ffffff;
+  margin-top: 20px;
+  text-align: center;
+  justify-content: center;
+  box-shadow: 0px 18px 42px 0 rgba(59, 77, 114, 0.08);
+  margin-right: 20px;
+  @media #{$ever-layout}  {
+    margin-right: 40px;
+    width: 320px;
+    height: 155px;
+  }
+  @media #{$xxx-layout}  {
+    margin-right: 30px;
+    width: 300px;
+    height: 145px;
+  }
+  @media #{$xx-layout}  {
+    margin-right: 30px;
+    width: 260px;
+    height: 145px;
+  }
+  @media #{$xl-layout}  {
+    margin-right: 10px;
+    width: 230px;
+    height: 145px;
+  }
+  @media #{$mg-layout}  {
+    margin-right: 5px;
+    width: 290px;
+    height: 150px;
+  }
+  @media #{$md-layout}  {
+    margin-bottom: 20px;
+    width: 260px;
+    height: 120px;
+  }
+  
+  @media #{$xs-layout}  {
+    width: 95%;
+  }
+  @media #{$xxs-layout}  {
+    width: 95%;
+    height: 130px;
+  }
+  @media #{$xxxs-layout}  {
+    width: 95%;
+    height: 130px;
+  }
+}
+.card-1-none{
+  background-color:#f1f1f8;
+  width: 290px;
+  height: 145px;
+  border-radius: 16px;
+  margin-top: 20px;
+  text-align: center;
+  box-shadow: 0px 18px 42px 0 rgba(59, 77, 114, 0.08);
+  margin-right: 20px;
+  @media #{$ever-layout}  {
+    margin-right: 40px;
+    width: 320px;
+    height: 155px;
+  }
+  @media #{$xxx-layout}  {
+    margin-right: 30px;
+    width: 300px;
+    height: 145px;
+  }
+  @media #{$xx-layout}  {
+    margin-right: 30px;
+    width: 260px;
+    height: 145px;
+  }
+  @media #{$xl-layout}  {
+    margin-right: 10px;
+    width: 230px;
+    height: 135px;
+  }
+  @media #{$mg-layout}  {
+    margin-right: 5px;
+    width: 185px;
+    height: 130px;
+  }
+  @media #{$md-layout}  {
+    margin-right: 10px;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 120px;
+  }
+
+  @media #{$xs-layout}  {
+    width: 95%;
+  }
+  @media #{$xxs-layout}  {
+    width: 95%;
+    height: 130px;
+  }
+  @media #{$xxxs-layout}  {
+    width: 95%;
+    height: 130px;
+  }
+}
+
+.card-2{
+  width: 290px;
+  height: 145px;
+  border-radius: 16px;
+  background-color: #ffffff;
+  margin-top: 43px;
+  margin-right: 20px;
+  box-shadow: 0px 18px 42px 0 rgba(59, 77, 114, 0.08);
+  @media #{$ever-layout}  {
+    margin-right: 40px;
+    width: 320px;
+    height: 155px;
+  }
+  @media #{$xxx-layout}  {
+    margin-right: 30px;
+    width: 300px;
+    height: 145px;
+  }
+  @media #{$xx-layout}  {
+    margin-right: 30px;
+    width: 260px;
+    height: 145px;
+  }
+  @media #{$xl-layout}  {
+    margin-right: 10px;
+    width: 220px;
+    height: 145px;
+  }
+  @media #{$mg-layout}  {
+    margin-right: 10px;
+    width: 290px;
+    height: 150px;
+  }
+  @media #{$md-layout}  {
+    margin-bottom: 20px;
+    width: 260px;
+    height: 120px;
+  }
+  @media #{$xs-layout}  {
+    width: 95%;
+    margin-top: 0px;
+  }
+  @media #{$xxs-layout}  {
+    width: 95%;
+    height: 130px;
+    margin-top: 0px;
+  }
+  @media #{$xxxs-layout}  {
+    width: 95%;
+    height: 130px;
+    margin-top: 0px;
+  }
+}
+.card-5{
+  width: 424px;
+  height: 145px;
+  border-radius: 16px;
+  background-color: #ffffff;
+  margin-top: 20px;
+  text-align: center;
+  box-shadow: 0px 18px 42px 0 rgba(59, 77, 114, 0.08);
+  margin-right: 20px;
+  @media #{$ever-layout}  {
+    width: 455px;
+    height: 155px;
+  }
+  @media #{$xxx-layout}  {
+    width: 455px;
+    height: 145px;
+  }
+  @media #{$xx-layout}  {
+    width: 400px;
+    height: 145px;
+  }
+  @media #{$xl-layout}  {
+    width: 400px;
+    height: 145px;
+  }
+
+
+  @media #{$sm-layout}  {
+    width: 90%;
+    height: 250px;
+  }
+  @media #{$mg-layout}  {
+    width: auto;
+    height: 150px;
+  }
+  @media #{$md-layout}  {
+    width: 95%;
+    height: 160px;
+  }
+  @media #{$xxs-layout}  {
+    padding-top: 10px;
+    width: 95%;
+    height: 150px;
+  }
+  @media #{$xsm-layout}  {
+    padding-top: 5px;
+    width: 95%;
+    height: 150px;
+  }
+  @media #{$xxxs-layout}  {
+    padding-top: 3px;
+    width: 95%;
+    height: 150px;
+  }
+
+}
+.card-5-none{
+  width: 424px;
+  height: 145px;
+  border-radius: 16px;
+  background-color:#f1f1f8;
+  margin-top: 20px;
+  text-align: center;
+  box-shadow: 0px 18px 42px 0 rgba(59, 77, 114, 0.08);
+  margin-right: 20px;
+  @media #{$ever-layout}  {
+    width: 455px;
+    height: 155px;
+  }
+  @media #{$xxx-layout}  {
+    
+    width: 455px;
+    height: 145px;
+  }
+  @media #{$xx-layout}  {
+    
+    width: 400px;
+    height: 145px;
+  }
+
+  @media #{$xs-layout}  {
+    width: 95%;
+    height: 250px;
+  }
+
+  @media #{$xl-layout}  {
+    
+    width: 353px;
+    height: 135px;
+  }
+  @media #{$mg-layout}  {
+    width: 345px;
+    height: 130px;
+  }
+  @media #{$md-layout}  {
+    width: 510px;
+    height: 120px;
+  }
+  @media #{$xxs-layout}  {
+    padding-top: 10px;
+    width: 95%;
+    height: 130px;
+  }
+  @media #{$xsm-layout}  {
+    padding-top: 10px;
+    width: 95%;
+    height: 130px;
+  }
+  @media #{$xxxs-layout}  {
+    padding-top: 10px;
+    width: 95%;
+    height: 130px;
+  }
+}
+
+
+
+.addtocard{
+  width: 303px;
+  height: 180px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin-top: 20px;
+  margin-right: 35px;
+  color: #777777;
+  @media #{$ever-layout}  {
+    margin-right: 40px;
+    width: 400px;
+    height: 250px;
+  }
+  @media #{$xs-layout}  {
+    width: 90%;
+    height: 200px;
+  }
+}
+
+.billing-address-card{
+  width: 303px;
+  height: 180px;
+  border-radius: 10px;
+  background-color: #2fd26f;
+  margin-top: 20px;
+  margin-right: 35px;
+  @media #{$ever-layout}  {
+    margin-right: 40px;
+    width: 400px;
+    height: 250px;
+  }
+  @media #{$xs-layout}  {
+    width: 90%;
+    height: 200px;
+  }
+}
+
+.card-3{
+  width: 303px;
+  height: 180px;
+  border-radius: 10px;
+  background-color: #3e436e;
+  margin-top: 20px;
+  margin-right: 35px;
+
+  @media #{$ever-layout}  {
+    margin-right: 20px;
+    width: 380px;
+    height: 200px;
+  }
+  
+  @media #{$xx-layout}  {
+    margin-right: 20px;
+    width: 300px;
+    height: 180px;
+  }
+  @media #{$xl-layout}  {
+    margin-right: 20px;
+    width: 270px;
+    height: 170px;
+  }
+  @media #{$xs-layout}  {
+    width: 95%;
+    height: 170px;
+  }
+  @media #{$mg-layout}  {
+    margin-right: 10px;
+    width: 230px;
+    height: 170px;
+  }
+  @media #{$md-layout}  {
+    margin-bottom: 20px;
+    width: 250px;
+    height: 180px;
+  }
+  @media #{$xxs-layout}  {
+    width: 95%;
+    height: 200px;
+  }
+}
+
+.card-3-none{
+  width: 303px;
+  height: 180px;
+  border-radius: 10px;
+  background-color:#f1f1f8;
+  margin-top: 20px;
+  margin-right: 35px;
+  @media #{$ever-layout}  {
+    margin-right: 20px;
+    width: 380px;
+    height: 200px;
+  }
+  
+  @media #{$xx-layout}  {
+    margin-right: 20px;
+    width: 300px;
+    height: 180px;
+  }
+  @media #{$xl-layout}  {
+    margin-right: 20px;
+    width: 270px;
+    height: 170px;
+  }
+  @media #{$xs-layout}  {
+    width: 95%;
+    height: 250px;
+  }
+  @media #{$mg-layout}  {
+    margin-right: 10px;
+    width: 230px;
+    height: 170px;
+  }
+
+  @media #{$md-layout}  {
+    margin-bottom: 20px;
+    width: 250px;
+    height: 180px;
+  }
+  @media #{$xxs-layout}  {
+    width: 95%;
+    height: 200px;
+  }
+}
+
+
+.card-4{
+  width: 349px;
+  height: 180px;
+  border-radius: 16px;
+  background-color: #ffffff;
+  margin-top: 20px;
+  margin-right: 35px;
+  box-shadow: 0px 18px 42px 0 rgba(59, 77, 114, 0.08);
+  // padding-top: 10px;
+
+  @media #{$ever-layout}  {
+    margin-right: 20px;
+    width: 380px;
+    height: 200px;
+  }
+  @media #{$xxx-layout}  {
+    margin-right: 20px;
+    width: 380px;
+    height: 190px;
+  }
+  @media #{$xx-layout}  {
+    margin-right: 20px;
+    width: 320px;
+    height: 180px;
+  }
+  @media #{$xl-layout}  {
+    margin-right: 20px;
+    width: 270px;
+    height: 170px;
+
+  }
+  @media #{$xs-layout}  {
+    width: 95%;
+
+  }
+  @media #{$xsm-layout}  {
+    height: 210px;
+    margin-bottom: 20px;
+
+  }
+  @media #{$xxs-layout}  {
+    height: 210px;
+    margin-bottom: 20px;
+
+  }
+  @media #{$xxxs-layout}  {
+    height: 210px;
+    margin-bottom: 20px;
+
+  }
+
+
+  @media #{$md-layout}  {
+    width: 248px;
+    height: 180px;
+  }
+  @media #{$mg-layout}  {
+    margin-right: 10px;
+    width: 245px;
+    height: 170px;
+  }
+}
+
+
+.card-4-none{
+  width: 349px;
+  height: 180px;
+  border-radius: 16px;
+  background-color:#f1f1f8;
+  margin-top: 20px;
+  margin-right: 35px;
+  box-shadow: 0px 18px 42px 0 rgba(59, 77, 114, 0.08);
+  @media #{$ever-layout}  {
+    margin-right: 20px;
+    width: 380px;
+    height: 240px;
+  }
+  @media #{$xxx-layout}  {
+    margin-right: 20px;
+    width: 380px;
+    height: 190px;
+  }
+  @media #{$xx-layout}  {
+    margin-right: 20px;
+    width: 320px;
+    height: 180px;
+  }
+  @media #{$xl-layout}  {
+    margin-right: 20px;
+    width: 270px;
+    height: 170px;
+
+  }
+  @media #{$xs-layout}  {
+    width: 90%;
+
+  }
+
+
+  @media #{$md-layout}  {
+    width: 248px;
+    height: 180px;
+  }
+  @media #{$mg-layout}  {
+    margin-right: 10px;
+    width: 245px;
+    height: 170px;
+  }
+}
+
+.billing-address-dashboard{
+  @media #{$mg-layout}  {
+    font-size: 12px;
+  }
+  @media #{$md-layout}  {
+    font-size: 12px;
+  }
+  
+}
+
+
+.card-6{
+  width: 349px;
+  height: 180px;
+  border-radius: 16px;
+  background-color: #ffffff;
+  margin-top: 20px;
+  box-shadow: 0px 18px 42px 0 rgba(59, 77, 114, 0.08);
+  @media #{$ever-layout}  {
+    margin-right: 40px;
+    width: 450px;
+  }
+  @media #{$xs-layout}  {
+    width: 90%;
+  }
+}
+
+.dashboard-row{
+  @media #{$ever-layout}  {
+    justify-content: space-evenly;
+  }
+  @media #{$xx-layout}  {
+    justify-content: space-evenly;
+  }
+  @media #{$xl-layout}  {
+    //justify-content: space-evenly;
+  }
+  @media #{$xs-layout}  {
+    justify-content: space-evenly;
+  }
+  @media #{$mg-layout}  {
+    justify-content: space-evenly;
+  }
+  @media #{$md-layout}  {
+    justify-content: center;
+  }
+}
+.section-row-2{
+  // @media #{$xxs-layout}  {
+  //   justify-content: center;
+  // }
+  @media #{$md-layout}  {
+    justify-content: center;
+  }
+  @media #{$sm-layout}  {
+    justify-content: center;
+  }
+  @media #{$md-layout}  {
+    justify-content: space-evenly;
+  }
+  @media #{$ever-layout}  {
+    justify-content: space-evenly;
+  }
+
+}
+.section-row-1{
+  // @media #{$xxs-layout}  {
+  //   justify-content: center;
+  // }
+  @media #{$md-layout}  {
+    justify-content: center;
+  }
+  @media #{$sm-layout}  {
+    justify-content: center;
+  }
+  @media #{$md-layout}  {
+    justify-content: space-evenly;
+  }
+  @media #{$ever-layout}  {
+    justify-content: space-evenly;
+  }
+
+}
+
+.section-row-3{
+  // @media #{$xxs-layout}  {
+  //   justify-content: center;
+  // }
+  @media #{$md-layout}  {
+    justify-content: center;
+  }
+  @media #{$sm-layout}  {
+    justify-content: center;
+  }
+  @media #{$md-layout}  {
+    justify-content: space-evenly;
+  }
+ 
+
+}
+
+.transactoin-row{
+  @media #{$ever-layout}  {
+    justify-content: space-evenly;
+  }
+}
+
+.subscription-row{
+  @media #{$mg-layout}  {
+    justify-content:center;
+  }
+  @media #{$md-layout}  {
+    justify-content:center;
+  }
+  @media #{$ever-layout}  {
+    justify-content: space-evenly;
+  }
+}
+.sub-col{
+  @media #{$xxs-layout}  {
+    margin-bottom: 40px;
+  }
+  @media #{$xs-layout}  {
+    margin-bottom: 40px;
+  }
+  @media #{$md-layout}  {
+    margin-bottom: 40px;
+  }
+}
+
+.card-heading-1{
+  font-size: 15px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2a2b34;
+}
+.spend-card{
+  @media #{$xs-layout}  {
+    width: 100%;
+  }
+}
+
+.card-1-heading{
+  font-family: $Poppins;
+  font-size: 15px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #606060;
+
+  @media #{$xl-layout}  {
+    font-size: 14px;
+    
+  }
+}
+.card-1-heading-2{
+  font-family: $Poppins;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #747589;
+}
+.card1-price{
+  font-family: $Poppins;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #505050;
+
+  @media #{$xl-layout}  {
+    font-size: 17px;
+    
+  }
+}
+.card-1-merchant{
+  font-family: $Poppins;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #4f5063;
+}
+
+.cart-icon{
+  background-color: #2fd26f;
+  width: 50px;
+  height: 50px;
+
+}
+.cart-icon-3{
+  background-color: #ff5050;
+  width: 50px;
+  height: 50px;
+
+}
+.cart-icon-4{
+  background-color: #f9e95a;
+  width: 50px;
+  height: 50px;
+
+}
+.cart-icon-2{
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:white;
+}
+
+.tran-icon{
+  background-color: #4981ff;
+  width: 50px;
+  height: 50px;
+}
+.tran-icon-2{
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:white;
+}
+
+.arrow-icons{
+  color: #9f9fb4;
+}
+.arrow-icons-disabled{
+  color: #9f9fb4;
+  pointer-events: none;
+  cursor: default;
+}
+.top-right-col{
+  margin-left: -42px;
+  @media #{$ever-layout}  {
+    margin-left: -60px;
+  }
+  @media #{$xs-layout}  {
+    margin-left: 0;
+  }
+}
+.top-mid-col{
+  @media #{$ever-layout}  {
+    margin-left: 4%;
+  }
+}
+
+.bnpl-logo{
+  position: absolute;
+  text-align: center;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
+  color:#4a4a59;
+  @media #{$xs-layout}  {
+    top: 40%;
+    left: 30%;
+  }
+}
+.bnpl-text{
+  position: absolute;
+  text-align: center;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:#4a4a59;
+  width: 100%;
+  font-family: $Poppins;
+  font-size: 12px;
+  @media #{$xs-layout}  {
+    top: 40%;
+    left: 60%;
+  }
+}
+.bnpl-price{
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.42;
+  font-family: $Poppins;
+}
+.bnpl-left-col{
+  background-color: #fbfbff;
+  font-family: $Poppins;
+  font-size: 15px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #2a2b34;
+  width: 30%;
+  @media #{$xs-layout}  {
+    width: 100%;
+  }
+  @media #{$xxs-layout}  {
+   display: none;
+  }
+  @media #{$xxxs-layout}  {
+    display: none;
+   }
+}
+.bnpl-right-col{
+  font-family: $Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  padding-top: 0px;
+  width: 70%;
+  @media #{$ever-layout}  {
+    padding-top: 30px;
+  }
+  @media #{$xxx-layout}  {
+    padding-top: 20px;
+  }
+  @media #{$xx-layout}  {
+    padding-top: 10px;
+  }
+  @media #{$xl-layout}  {
+    padding-top: 10px;
+  }
+  @media #{$mg-layout}  {
+    padding-top: 10px;
+  }
+  @media #{$xs-layout}  {
+    width: 100%;
+  }
+}
+.bnpl-col{
+  @media #{$xs-layout}  {
+    width: 100%;
+  }
+}
+.stepper{
+  width: 100%;
+  font-family: $Poppins;
+  font-size: 15px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #2a2b34;
+}
+.lock-icon{
+  color: #ffffff;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  @media #{$ever-layout}  {
+    width: 40px;
+    height: 40px;
+  }
+}
+.key-logo{
+  width: 47.5px;
+  height: 47.5px;
+  opacity: 0.7;
+  border-radius: 15px;
+  // background-color:#3e436e;
+  position: relative;
+}
+.default-card{
+  font-family: $Poppins;
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  @media #{$ever-layout}  {
+    font-size: 15px;
+    margin-top: 15px;
+  }
+}
+.location-logo{
+  width: 100px;
+  height: 80px;
+}
+
+.card-logo{
+  // margin-top: 20px;
+  // margin-bottom: 10px;
+  width: 80px;
+  height: 53px;
+}
+.merchant-data{
+  // padding-top: 10px;
+  // padding-bottom: 10px;
+  // margin-top: 8px;
+  // margin-bottom: 8px;
+  @media #{$ever2-layout}  {
+    margin-top: 10px;
+    margin-bottom: 10px
+  }
+  @media #{$ever-layout}  {
+    margin-top: 10px;
+    margin-bottom: 10px
+  }
+  @media #{$xxx-layout}  {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+  }
+  @media #{$xx-layout}  {
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+  }
+  @media #{$mg-layout}  {
+    margin-top: 5px;
+    // padding: 5px;
+  }
+  @media #{$md-layout}  {
+    margin-top: 8px;
+    // padding: 5px;
+  }
+  @media #{$sm-layout}  {
+    margin-top: 10px;
+    
+  }
+  @media #{$xxs-layout}  {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    
+  }
+  @media #{$xsm-layout}  {
+    margin-top: 14px;
+    margin-bottom: 14px;
+    
+  }
+  @media #{$xl-layout}  {
+    margin-top: 5px;
+    
+  }
+}
+hr{
+  margin-top: 5px;
+  // margin-left: 20px;
+  // margin-right: 20px;
+  // margin-bottom: 10px;
+}
+.tran-heading-1{
+  font-family: $Poppins;
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #292a31;
+  @media #{$mg-layout}  {
+    font-size: 10px;
+  }
+
+}
+.tran-heading-2{
+  font-size: 12px;
+  font-weight: normal;
+  color: #8c8ea1;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  @media #{$xl-layout}  {
+    font-size: 10px;
+  }
+}
+
+.urban-logo{
+  width: 35px;
+  height: 35px;
+  @media #{$xl-layout}  {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+
+.tran-col{
+  @media #{$xs-layout}  {
+    width: 100%;
+  }
+}
+.radio-inputs{
+  width: 21px;
+  height: 21px;
+  color: #2fd26f;
+}
+.billing-card-data{
+  position: absolute;
+  text-align: left;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  font-family: $Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #292a31;
+  @media #{$xl-layout}  {
+    font-size: 12px;  
+  }
+}
+.address-col{
+  @media #{$xs-layout}  {
+    width: 100%;
+  }
+}
+
+.billing-text{
+  font-family: $Poppins;
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #292a31;
+}
+.merchant-image{
+  width: 132px;
+  height: 132px;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 10px;
+
+}
+.offer-box{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+.merchant-text-1{
+  font-family: $Poppins;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #292a31;
+}
+.merchant-text-2{
+  font-family: $Poppins;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #292a31;
+  font-size: 13px;
+  font-weight: normal;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.spending-box{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+.badge-text{
+  font-size: 10px;
+  font-family: $Poppins;
+  position: absolute;
+  top: 0%;
+  left:80%;
+  transform: translate(-50%, -50%);
+  background-color: #2fd26f;
+}
+
+.alert-div{
+
+}
+.No-text{
+  position: absolute;
+  top: 40%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  @media #{$xs-layout}  {
+    top: 20%;
+    // margin-top: -250px;
+  }
+}
+
+.No-Address-Added {
+  font-family: $Poppins;
+  font-size: 21px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #b2b2c4;
+}
+.no-address-text{
+  font-family: $Poppins;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #8b8ba3;
+}
+
+.table{
+  width: 100%;
+  height: 600px;
+}
+.subscription-logo{
+  width: 100%;
+}
+
+.subscription-merchant-logo{
+  width: 70px;
+  height: 70px;
+  border: solid 1px #dedee3;
+
+  @media #{$xx-layout}  {
+    width: 70px;
+    height: 70px;
+    margin-top: 30px;
+  }
+  @media #{$xl-layout}  {
+    width: 60px;
+    height: 60px;
+    margin-top: 30px;
+  }
+  @media #{$xs-layout}  {
+    display: none;
+  }
+  @media #{$xxs-layout}  {
+    display: none;
+  }
+  @media #{$xxxs-layout}  {
+    display: none;
+  }
+}
+.subscription-merchant-logo-dashboard{
+  width: 60px;
+  height: 60px;
+  border: solid 1px #dedee3;
+ 
+  @media #{$xxs-layout}  {
+    display: none;
+  }
+  @media #{$xsm-layout}  {
+    display: none;
+  }
+  @media #{$xxxs-layout}  {
+    display: none;
+  }
+}
+.table-logo{
+  width: 35px;
+  height: 35px;
+}
+.bill-modal{
+  background-color: #f7f7fa;
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+}
+.Add-New-Address {
+  font-family: $Poppins;
+  font-size: 33px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #2a2a32;
+  margin-top: 65px;
+  @media #{$xxs-layout}  {
+    margin-top: 5px;
+    font-size: 25px;
+  }
+  @media #{$xxxs-layout}  {
+    margin-top: 5px;
+    font-size: 25px;
+  }
+  @media #{$xsm-layout}  {
+    margin-top: 5px;
+    font-size: 25px;
+  }
+}
+.Add-New-Address-sub-head{
+  font-family: $Poppins;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #666679;
+  @media #{$xxs-layout}  {
+    font-size: 12px;
+  }
+  @media #{$xxxs-layout}  {
+    font-size: 12px;
+  }
+  @media #{$xsm-layout}  {
+    font-size: 12px;
+  }
+}
+
+.save-address-btn {
+  width: 181px;
+  height: 47px;
+  border-radius:23.5px;
+  background-color: #30d270;
+  margin-left: 20px;
+  font-family: $Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 3.92px;
+  text-align: center;
+  color: #fff;
+  margin-top: 20px;
+  @media #{$xxs-layout}  {
+    margin-top: 5px;
+  }
+  @media #{$xxxs-layout}  {
+    margin-top: 5px;
+  }
+  @media #{$xsm-layout}  {
+    margin-top: 5px;
+  }
+}
+
+.save-password-btn {
+  width: 181px;
+  height: 47px;
+  border-radius:23.5px;
+  background-color: #30d270;
+  // margin-left: 20px;
+  font-family: $Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 3.92px;
+  text-align: center;
+  color: #fff;
+  margin-top: 20px;
+  @media #{$xxs-layout}  {
+    margin-top: 5px;
+  }
+  @media #{$xxxs-layout}  {
+    margin-top: 5px;
+  }
+  @media #{$xsm-layout}  {
+    margin-top: 5px;
+  }
+}
+
+
+.close-btn{
+  width: 39.5px;
+  height: 39.5px;
+  opacity: 0.5;
+  background-color: #c1c6d8;
+  margin-left: 90%;
+  margin-top: 42px;
+
+  @media #{$xxxs-layout}  {
+    margin-top: 5px;
+    margin-left: 50%;
+  }
+  @media #{$xsm-layout}  {
+    margin-top: 5px;
+    margin-left: 45%;
+  }
+  @media #{$xxs-layout}  {
+    margin-top: 5px;
+    margin-left: 50%;
+  }
+}
+.close-icon{
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+.Rounded-Rectangle-7 {
+  width: 152px;
+  height: 38px;
+  border-radius: 37px;
+  background-color: #2fd26f;
+  font-family: $Poppins;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fff;
+
+}
+
+.sort-2{
+  background-color:#2fd26f;
+  width: 150px;
+  height: 38px;
+  margin-left: 10px;
+  margin-top: -9px;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+  @media #{$xxs-layout}  {
+    margin-top: 10px;
+    margin-left: -5px;
+     
+    }
+    @media #{$xxxs-layout}  {
+      margin-top: 10px;
+      margin-left: -30px;
+       
+      }
+      @media #{$xsm-layout}  {
+        margin-top: 10px;
+        margin-left: -20px;
+         
+        }
+}
+
+.sort-3{
+  background-color:#2fd26f;
+  width: 100px;
+  height: 38px;
+  margin-left: 10px;
+  margin-top: -9px;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+  @media #{$xxs-layout}  {
+    margin-top: 10px;
+    margin-left: -5px;
+     
+    }
+    @media #{$xxxs-layout}  {
+      margin-top: 10px;
+      margin-left: -30px;
+       
+      }
+      @media #{$xsm-layout}  {
+        margin-top: 10px;
+        margin-left: -20px;
+         
+        }
+}
+
+.Rounded-Rectangle-9 {
+  width: 329px;
+  height: 133.5px;
+  border-radius: 12px;
+  box-shadow: 0px 34px 82px 0 rgba(36, 38, 57, 0.07);
+  background-color: #fff;
+  margin-right: 50px;
+  @media #{$xxs-layout}  {
+    width: 310px;
+    height: 133.5px;
+     
+    }
+  @media #{$xsm-layout}  {
+    width: 95%;
+    height: 133.5px;
+     
+    }
+    @media #{$xxxs-layout}  {
+      width: 95%;
+      height: 133.5px;
+       
+      }
+}
+.Home-Address {
+  font-family: $Poppins;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2a2b34;
+}
+
+.address-text{
+  font-family: $Poppins;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #646678;
+}
+.default-marks{
+  font-family: $Poppins;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #424455;
+  margin-top: 25px;
+  cursor: pointer;
+}
+.default-btn{
+  color: white;
+  width: 18px;
+  height: 18px;
+  border: solid 2px #dbdbe8;
+  background-color: #fff;
+  cursor: pointer;
+}
+.default-btn-fulled{
+  color: white;
+  width: 18px;
+  height: 18px;
+  border: solid 2px #dbdbe8;
+  background-color: #2fd26f;
+  cursor: pointer;
+}
+
+.delete-button{
+  background-color:#ffeded ;
+  width: 32.5px;
+  height: 32.5px;
+  position: relative;
+}
+.del-icon{
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+.delete-confirmation-box{
+  width: 264px;
+  height: 153px;
+  border-radius: 15px;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+.Delete-Card {
+  font-family: $Poppins;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #303442;
+
+}
+.confirm-text{
+  font-family: $Poppins;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #474d61;
+}
+.yes-no-text{
+  font-family: $Poppins;
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #565963;
+}
+.subscript-left-col{
+  text-align: -webkit-center;
+}
+.Ellipse-11 {
+  width: 57.5px;
+  height: 57.5px;
+  box-shadow: 0px 21px 51px 0 rgba(43, 235, 119, 0.43);
+  background-color: #2fd26f;
+}
+.add-card-none-text{
+  margin-top: 20px;
+  font-family: $Poppins;
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #adadc4;
+}
+.subscription-card {
+  width: 500px;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0px 37px 84px 0 rgba(59, 77, 114, 0.08);
+  background-color: #fff;
+  margin-right: 35px;
+  margin-bottom: 50px;
+  text-align: center;
+
+  @media #{$xx-layout}  {
+    width: 450px;
+  }
+
+  @media #{$xl-layout}  {
+    width: 400px;
+  }
+  @media #{$xs-layout}  {
+    width: 90%;
+    height: 200px;
+
+  }
+  @media #{$xxs-layout}  {
+    width: 90%;
+    height: 200px;
+
+  }
+  @media #{$xsm-layout}  {
+    width: 80%;
+    height: 200px;
+    padding-right: 30px;
+    margin-left: -0.5rem;
+
+  }
+  @media #{$xxxs-layout}  {
+    width: 90%;
+    height: 200px;
+
+  }
+  
+}
+.subscription-left-col{
+  width: 144.5px;
+  background-color: #fbfbff;
+
+  @media #{$xl-layout}  {
+    width: 120px;
+
+  }
+
+  @media #{$xs-layout}  {
+    margin-top: 10px;
+    width: 100%;
+    height: 10px;
+
+  }
+  @media #{$xsm-layout}  {
+    margin-top: 10px;
+    width: 100%;
+    height: 10px;
+    display: none;
+
+  }
+  @media #{$xxs-layout}  {
+    margin-top: 10px;
+    width: 100%;
+    height: 10px;
+    display: none;
+
+  }
+  @media #{$xxxs-layout}  {
+    margin-top: 10px;
+    width: 100%;
+    height: 10px;
+    display: none;
+
+  }
+}
+.subscription-right-col{
+  width: 355.5px;
+  text-align: center;
+
+  @media #{$xx-layout}  {
+    width: 280px;
+  }
+  @media #{$xl-layout}  {
+    width: 280px;
+  }
+  @media #{$xx-layout}  {
+    width: 280px;
+  }
+  @media #{$xs-layout}  {
+    width: 100%;
+  }
+}
+.subscription-heading{
+  font-family: $Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #2a2b34;
+  margin-top: 23px;
+  @media #{$xsm-layout}  {
+    margin-left: 30px;
+
+  }
+}
+.subscription-heading-dashboard{
+  font-family: $Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #2a2b34;
+  @media #{$xl-layout}  {
+    font-size: 12px;
+  }
+}
+.subscription-price{
+  // background-color: #2fd26f;
+  font-family: $Poppins;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4a4a59;
+  font-size: 13px;
+  font-weight: 600;
+  height: 30px;
+  // line-height: 1.42;
+
+  @media #{$xxs-layout}  {
+    display: none;
+  }
+  @media #{$xsm-layout}  {
+    display: none;
+  }
+  @media #{$xxxs-layout}  {
+    display: none;
+  }
+}
+.subscription-detail{
+  font-family: $Poppins;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.91;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4a4a59;
+
+  @media #{$xxs-layout}  {
+    display: none;
+  }
+  @media #{$xsm-layout}  {
+    display: none;
+  }
+  @media #{$xxxs-layout}  {
+    display: none;
+  }
+}
+.offer-slider{
+  width: 100%;
+  // @media #{$ever-layout}  {
+  //   width: 1180px;
+  // }
+}
+.delete-card-btn{
+  width: 157.5px;
+  height:47px;
+  border-radius: 47px;
+  background-color: #dc4f4f;
+  font-family: $Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 3.92px;
+  text-align: center;
+  color: #fff;
+}

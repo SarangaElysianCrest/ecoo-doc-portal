@@ -1,0 +1,284 @@
+.cart-button {
+  width: 40px;
+  height: 40px;
+  background-color: #2a2b34;
+}
+.close-button{
+  width: 40px;
+  height: 40px;
+  background-color: #8c8ea1;
+  opacity: 0.2;
+  margin-top: 20px;
+}
+.drawer-header{
+  background-color: #30d270;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  height: 80px;
+  min-width: 450px;
+  @media #{$xxs-layout}  {
+    min-width: 300px;
+  } 
+  @media #{$xsm-layout}  {
+    min-width: 320px;
+  }
+  @media #{$xxxs-layout}  {
+    min-width: 320px;
+  }
+}
+.drawer-body{
+  @media #{$xxs-layout}  {
+    width: 320px;
+  }
+  @media #{$xsm-layout}  {
+    width: 320px;
+  }
+  @media #{$xxxs-layout}  {
+    width: 320px;
+  }
+}
+.drawer-box{
+  background-color: #FFFFFF;
+}
+.cart-items{
+  width: 60%;
+  margin-top: 25px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.cart{
+  width: 20%;
+  margin-top: 25px;
+}
+.cart-btn{
+  width: 300px;
+  background-color: #2fd26f;
+  color: white;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  height: 50px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  margin-top: 15px;
+}
+.drawer-footer{
+}
+.cart-item{
+  height: 100px;
+  width: 450px;
+  @media #{$xxs-layout}  {
+    width: 320px;
+  }
+  @media #{$xsm-layout}  {
+    width: 320px;
+  }
+  @media #{$xxxs-layout}  {
+    width: 320px;
+  }
+}
+.product-name{
+  font-family: $Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align:left;
+  color: #2a2b34;
+  margin-top: 10px;
+  width: 100%;
+  @media #{$mobiles}  {
+    font-size: 12px;
+  }
+}
+.product-price-qty{
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  font-size: 13px;
+  color: #2a2b34;
+  font-weight: 300;
+  @media #{$mobiles}  {
+    font-size: 10px;
+  }
+}
+
+.qty{
+  margin-right: 10px;
+  width: 10%;
+}
+.qty-increment{
+  width: 80px;
+}
+
+.product-img{
+  width: 15%;
+
+}
+.product-details{
+  width: 40%;
+  text-align: center;
+}
+.btn-price-cart{
+  text-align: left;
+}
+.view-summary{
+  width: 50%;
+  text-align: right;
+}
+.img-box{
+  border: 1px solid #F2F3F6;
+  width: 150px;
+  height: 70px;
+  @media #{$mobiles}  {
+    width: 100px;
+    height: 50px;
+  }
+}
+
+.product-price-cart{
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  font-size: 13px;
+  color: #1b1b1b;
+  font-weight: 700;
+  margin-left: 5px;
+  width: 20%;
+  @media #{$mobiles}  {
+    font-size: 10px;
+  }
+}
+.close-items-cart{
+
+}
+
+.qty-top{
+  background-color: #F9F8FD;
+  height: 30px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  color: #2fd26f;
+  width: 30px;
+
+}
+.qty-body{
+  background-color: #F9F8FD;
+  text-align: center;
+  height: 30px;
+  width: 30px;
+}
+.qty-bottom{
+  background-color: #F9F8FD;
+  height: 30px;
+  width: 30px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: #2fd26f;
+}
+.add-to-cart{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #2fd26f;
+  margin-top: 15px;
+  @media #{$mobiles}  {
+    width: 40px;
+    height: 40px;
+  }
+}
+.cart-count{
+
+}
+.text-empty{
+  color: #B4BCCF;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  text-align: center;
+  line-height: 25px;
+  margin-top: 25px;
+}
+.empty-cart-icon{
+  color: #B4BCCF;
+  width: 45px;
+  height: 45px;
+}
+.order-head{
+  color: #1C2220;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+.order-qty{
+  width: 50px;
+  color: #1C2220;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  text-align: center;
+  font-weight: 500;
+}
+.order-details{
+  width: 250px;
+  color: #1C2220;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  font-weight: 500;
+
+  @media #{$mobiles}  {
+    width: 100px;
+  }
+}
+.delivery-fee-msg{
+  color: #1C2220;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+.order-price{
+  width: 100px;
+  color: #1C2220;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  font-weight: 500;
+  @media #{$xxs-layout}  {
+    margin-left: 70px;
+  }
+  @media #{$xsm-layout}  {
+    margin-left: 70px;
+  }
+}
+.order-sub{
+  width: 300px;
+  color: #1C2220;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  font-weight: 500;
+  @media #{$mobiles}  {
+    width: 200px;
+  }
+}
+.order-sub-price{
+  width: 100px;
+  color: #1C2220;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  font-weight: 500;
+  @media #{$mobiles}  {
+    width: 100px
+  }
+}
+.modal-payin3-text-2{
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+.more-info{
+  cursor: pointer;
+}

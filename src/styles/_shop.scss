@@ -1,0 +1,651 @@
+.shop-merchant-logo{
+    width:109px ;
+    height:109px ;
+}
+.shop-row-1{
+    // @media #{$ever-layout}  {
+    //     justify-content: space-evenly;
+    // }
+    @media #{$xxs-layout}  {
+        margin-left: -12px;
+      
+        }
+    @media #{$xsm-layout}  {
+      margin-left: -10px;
+    
+      }
+}
+
+.shop-row-2{
+    justify-content: space-evenly;
+}
+
+.shop-row-3{
+    @media #{$xxs-layout}  {
+        justify-content: space-evenly;
+    }
+    @media #{$xsm-layout}  {
+        justify-content: space-evenly;
+    }
+    @media #{$xxxs-layout}  {
+        justify-content: space-evenly;
+    }
+    // justify-content: space-evenly;
+}
+
+.shop-merchant-div{
+    width: 16%;
+    height: 200px;
+
+    @media #{$sm-layout}  {
+        width: 50%;
+        height: 160px;
+    }
+    @media #{$xxs-layout}  {
+        width: 100%;
+    }
+    @media #{$xsm-layout}  {
+        width: 100%;
+    }
+    @media #{$xxxs-layout}  {
+        width: 100%;
+    }
+    @media #{$md-layout}  {
+        width: 25%;
+    }
+}
+.merchant-text{
+    font-family: $Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align:center;
+    color: #2a2b34;
+    margin-top: 10px;
+}
+.merchant-text-order{
+    font-family: $Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align:center;
+    color: #2a2b34;
+}
+.merchant-text-shop-2{
+    font-family: $Poppins;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2a2b34;
+}
+.shop-merchant-logo-2{
+    width: 52.5px;
+    height: 52.5px;
+    @media #{$xxs-layout}  {
+        width: 40px;
+        height: 40px;
+      } 
+      @media #{$xsm-layout}  {
+        width: 40px;
+        height: 40px;
+      }
+      @media #{$xxxs-layout}  {
+        width: 40px;
+        height: 40px;
+      }
+}
+.name-breadcrumb{
+    margin-left: 20px;
+}
+.breadcrumb-1{
+    font-family: $Poppins;
+    font-size:  12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #6b6c76;
+}
+.breadcrumb-2{
+    font-family: $Poppins;
+    font-size: 12px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    font-weight: 500;
+    color: #373946;
+}
+.category-btn-text{
+    font-family: $Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #2a2b34;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 31px;
+}
+.category-btn-text-clicked{
+    border-radius: 31.5px;
+    background-color: #2fd26f;
+    font-family: $Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color:#f7f7fa;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 31px;
+}
+.product-card{
+    width: 190px;
+    height: 190px;
+    background-color: #ffffff;
+    margin-bottom: 18px;
+    cursor: pointer;
+}
+.product-card-div{
+    width: 220px;
+    height: 310px;
+}
+.product-card-image{
+    width: 170px;
+    height: 170px;
+}
+.product-description{
+    width: 200px;
+    font-family: $Poppins;
+    font-size: 13px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2a2b34;
+}
+.product-modal-img{
+    width: 306px;
+    height: 100%;
+    @media #{$xxs-layout}  {
+        width: 120px;
+        height: 100%;
+        margin-top: 50px;
+    }
+    @media #{$xsm-layout}  {
+        width: 120px;
+        height: 100%;
+        margin-top: 50px;
+    }
+    @media #{$xxxs-layout}  {
+        width: 120px;
+        height: 100%;
+        margin-top: 50px;
+    }
+}
+.modal-text-payin-3{
+    font-family: $Poppins;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    text-align: left;
+    color: #292a31;
+
+}
+.modal-text-payin-3-price{
+    font-family: $Poppins;
+    font-size: 13px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.52px;
+    text-align: left;
+    font-weight: 600;
+    color: #292a31;
+}
+.modal-left-bottom{
+    margin-top: 50px;
+    margin-left: 50px;
+    @media #{$xxs-layout}  {
+        margin-left: 0px;
+    }
+    @media #{$xsm-layout}  {
+        margin-left: 0px;
+    }
+    @media #{$xxxs-layout}  {
+        margin-left: 0px;
+    }
+}
+
+.modal-payin3-text-2{
+    font-family: $Poppins;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.52px;
+    text-align: left;
+    color: #525360;
+}
+.modal-ul{
+    font-family: $Poppins;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    text-align: left;
+    color: #9092a1;
+}
+.left-col-modal{
+    min-height: 538px;
+    @media #{$xxs-layout}  {
+       height: auto;
+    }
+    @media #{$xsm-layout}  {
+        height: auto;
+    }
+    @media #{$xxxs-layout}  {
+        height: auto;
+    }
+}
+.product-heading{
+    width: 270px;
+    font-family: $Poppins;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2a2b34;
+    @media #{$xxs-layout}  {
+        margin-top: 50px;
+        width: 100%;
+        font-size: 14px;
+    }
+    @media #{$xsm-layout}  {
+        margin-top: 20px;
+        width: 100%;
+        font-size: 14px;
+    }
+    @media #{$xxxs-layout}  {
+        margin-top: 20px;
+        width: 100%;
+        font-size: 14px;
+    }
+}
+
+.product-price{
+    margin-top: 19px;
+    font-family: $Poppins;
+    font-size: 23px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2fd26f;
+}
+.product-description-modal {
+    width: 270px;
+    margin-top: 22px;
+    font-family: $Poppins;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #999baf;
+    margin-bottom: 10px;
+    @media #{$xxs-layout}  {
+        width: 100%;
+        font-size: 10px;
+    }
+    @media #{$xsm-layout}  {
+        width: 100%;
+        font-size: 10px;
+    }
+    @media #{$xxxs-layout}  {
+        width: 100%;
+        font-size: 10px;
+    }
+}
+.quick-checkout-btn{
+    width: 206px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #292a31;
+    font-family: $Poppins;
+    font-size: 15px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.58px;
+    text-align: left;
+    color: #fff;
+    margin-right: 15px;
+    @media #{$xxs-layout}  {
+        margin-right: 0px;
+    }
+    @media #{$xsm-layout}  {
+        margin-right: 0px;
+    }
+    @media #{$xxxs-layout}  {
+        margin-right: 0px;
+    }
+}
+.pay-in3{
+    cursor: pointer;
+    width: 111px;
+    height: 50px;
+    @media #{$xxs-layout}  {
+        margin-top: 10px;
+    }
+    @media #{$xsm-layout}  {
+        margin-top: 10px;
+    }
+    @media #{$xxxs-layout}  {
+        margin-top: 10px;
+    }
+}
+.pay-in3-cart{
+    cursor: pointer;
+    width: 110px;
+    height: 60px;
+}
+.pay-in3-disabled{
+    width: 111px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #9f9fb4;
+    font-family: $Poppins;
+    font-size: 15px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.58px;
+    text-align: left;
+    color: #fff;
+    pointer-events: none;
+}
+
+.add-item-btn{
+    width: 141px;
+    height: 50px;
+    border-radius: 50px;
+    border: solid 3px #41485c;
+    background-color: #fff;
+    margin-top: 15px;
+    font-family: $Poppins;
+    font-size: 15px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.58px;
+    text-align: left;
+    color: #292a31;
+    @media #{$mobiles}  {
+        width: 100px;
+        height: 40px;
+    }
+}
+.modal-close-btn{
+    width: 41.5px;
+    height: 41.5px;
+    background-color: #292a31;
+}
+.close-div{
+    position: absolute;
+    left: 50%;
+    top: 1%;
+    transform: translate(-50%,-50%);
+    @media #{$mobiles}  {
+        position: absolute;
+        left: 39%;
+        top: 1%;
+        transform: translate(-85%, -74%);
+    }
+}
+
+.wrapper {
+    position: relative;
+}
+
+.dashed-box {
+    position: relative;
+    z-index: 1;
+}
+.gold-box {
+    position: absolute;
+    z-index: 3; /* put .gold-box above .green-box and .dashed-box */
+    left: 97%;
+    top: 5%;
+    transform: translate(-50%,-50%);
+}
+
+.receipt-heading{
+    font-family: $Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #2a2b34;
+}
+
+.Ellipse-560-modal {
+    margin-top: 21px;
+    width:49px;
+    height:49px;
+    background-color: #31d370;
+}
+.success-check-mark-modal{
+    width: 37px;
+    height: 27px;
+}
+.tran-modal-head2{
+    margin-top: 24px;
+    font-weight: bold;
+    letter-spacing: 0.96px;
+    color: #a2a3b1;
+    font-family: $Poppins;
+    font-size: 12px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+}
+.tran-modal-text{
+    font-family: $Poppins;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #323440;
+}
+.tran-modal-price{
+    font-family: $Poppins;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: normal;
+    color: #323440;
+}
+.table-header-modal{
+    font-family: $Poppins;
+    font-size: 11px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #323440;
+    text-transform: uppercase;
+}
+.table-header-modal-name{
+    font-family: $Poppins;
+    font-size: 11px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #323440;
+    text-transform: uppercase;
+    width: 170px;
+}
+.table-header-modal-id{
+    font-family: $Poppins;
+    font-size: 11px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #323440;
+    text-transform: uppercase;
+    width: 120px;
+}
+.table-mod-text{
+    font-family: $Poppins;
+    font-size: 11px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #323440;
+}
+.table-head-modal{
+    border-bottom: 1px solid #5e6070;
+    border-top: 2px solid #5e6070;
+}
+.table-pricing-price{
+    width: 100px;
+    font-family: $Poppins;
+    font-size: 11px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #323440;
+    padding-right: 17px;
+}
+.table-pricing{
+    font-family: $Poppins;
+    font-size: 11px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #323440;
+}
+.td{
+    min-width: 25%;
+}
+
+.variants-text{
+    min-width: 100px;
+    font-family: $Poppins;
+    font-size: 13px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2a2b34;
+}
+.variant-btn{
+    width: 20px;
+    height: 20px;
+    background-color: #3e436e;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.variant-box{
+    padding-top: 2px;
+    height: 20px;
+    min-width: 65px;
+    background-color: #3e436e;
+    margin-right: 12px;
+    font-family: $Poppins;
+    font-size: 10px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    font-weight: normal;
+    color:white;
+    cursor: pointer;
+}
+
+.variant-box:hover{
+    color: #3e436e;
+    background-color: white;
+    border: 1px solid  #3e436e;
+}
+.kyc-modal-screen{
+    min-height: 400px;
+}
+
+:target {
+   
+    border: 2px solid #d22f2f;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+

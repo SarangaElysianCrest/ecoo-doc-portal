@@ -1,0 +1,962 @@
+[
+  {
+    "bin": 469176,
+    "bank": "Amana Bank Ltd",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 476649,
+    "bank": "Axis Bank Limited",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 476650,
+    "bank": "Axis Bank Limited",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 436193,
+    "bank": "BANK OF CEYLON",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 454428,
+    "bank": "BANK OF CEYLON",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 454429,
+    "bank": "BANK OF CEYLON",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 455559,
+    "bank": "BANK OF CEYLON",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 455560,
+    "bank": "BANK OF CEYLON",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 463785,
+    "bank": "BANK OF CEYLON",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 483557,
+    "bank": "BANK OF CEYLON",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 515685,
+    "bank": "BANK OF CEYLON",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 517661,
+    "bank": "BANK OF CEYLON",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 517708,
+    "bank": "BANK OF CEYLON",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 407653,
+    "bank": "BANK OF CEYLON",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 408854,
+    "bank": "BANK OF CEYLON",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 460559,
+    "bank": "BANK OF CEYLON",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 462970,
+    "bank": "BANK OF CEYLON",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 468208,
+    "bank": "BANK OF CEYLON",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 521079,
+    "bank": "BANK OF CEYLON",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 527370,
+    "bank": "BANK OF CEYLON",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 589974,
+    "bank": "BANK OF CEYLON",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 532726,
+    "bank": "BANK OF CEYLON",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 534274,
+    "bank": "BANK OF CEYLON",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 539921,
+    "bank": "BANK OF CEYLON",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 546523,
+    "bank": "BANK OF CEYLON",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 557583,
+    "bank": "BANK OF CEYLON",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 408854,
+    "bank": "BANK OF CEYLON",
+    "type": "PREPAID"
+  },
+  {
+    "bin": 416801,
+    "bank": "BANK OF CEYLON",
+    "type": "PREPAID"
+  },
+  {
+    "bin": 554214,
+    "bank": "Cargills Bank",
+    "type": "Debit World"
+  },
+  {
+    "bin": 523670,
+    "bank": "Cargills Bank",
+    "type": "Debit Platinum"
+  },
+  {
+    "bin": 516402,
+    "bank": "Cargills Bank",
+    "type": "Credit Titanium"
+  },
+  {
+    "bin": 516659,
+    "bank": "Cargills Bank",
+    "type": "Credit World"
+  },
+  {
+    "bin": 420223,
+    "bank": "CENTRAL FINANCE CO. PLC",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 484072,
+    "bank": "Citizens Development Business Finance PLC",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 432571,
+    "bank": "Commercial Bank of Ceylon PLC",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 432572,
+    "bank": "Commercial Bank of Ceylon PLC",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 437840,
+    "bank": "Commercial Bank of Ceylon PLC",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 510484,
+    "bank": "COMMERCIAL BANK OF CEYLON PLC",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 550489,
+    "bank": "COMMERCIAL BANK OF CEYLON PLC",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 550490,
+    "bank": "COMMERCIAL BANK OF CEYLON PLC",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 550598,
+    "bank": "COMMERCIAL BANK OF CEYLON PLC",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 552773,
+    "bank": "COMMERCIAL BANK OF CEYLON PLC",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 559574,
+    "bank": "COMMERCIAL BANK OF CEYLON PLC - Master World",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 559576,
+    "bank": "COMMERCIAL BANK OF CEYLON PLC - Master World",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 496699,
+    "bank": "COMMERCIAL BANK OF CEYLON PLC - Visa Infinite",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 421689,
+    "bank": "Commercial Bank of Ceylon PLC",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 535927,
+    "bank": "COMMERCIAL BANK OF CEYLON PLC",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 553806,
+    "bank": "COMMERCIAL BANK OF CEYLON PLC",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 559728,
+    "bank": "COMMERCIAL BANK OF CEYLON PLC",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 450089,
+    "bank": "Commercial Bank of Ceylon PLC",
+    "type": "DEBIT ELITE"
+  },
+  {
+    "bin": 476673,
+    "bank": "Commercial Bank of Ceylon PLC",
+    "type": "DEBIT PLATINUM"
+  },
+  {
+    "bin": 626233,
+    "bank": "COMMERCIAL BANK OF CEYLON PLC",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 626234,
+    "bank": "COMMERCIAL BANK OF CEYLON PLC",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 626235,
+    "bank": "COMMERCIAL BANK OF CEYLON PLC",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 629176,
+    "bank": "COMMERCIAL BANK OF CEYLON PLC",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 629177,
+    "bank": "COMMERCIAL BANK OF CEYLON PLC",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 419802,
+    "bank": "Commercial Leasing and Finance PLC",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 438043,
+    "bank": "Dfcc Vardhana Bank Limited",
+    "type": "CREDIT Signature"
+  },
+  {
+    "bin": 461436,
+    "bank": "Dfcc Vardhana Bank Limited",
+    "type": "CREDIT Infinite"
+  },
+  {
+    "bin": 483558,
+    "bank": "Dfcc Vardhana Bank Limited",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 483559,
+    "bank": "Dfcc Vardhana Bank Limited",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 489011,
+    "bank": "Dfcc Vardhana Bank Limited",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 442413,
+    "bank": "Dfcc Vardhana Bank Limited",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 415738,
+    "bank": "Hatton National Bank PLC Visa Classic / Royal College",
+    "type": "CREDIT Visa Classic / Royal College"
+  },
+  {
+    "bin": 415739,
+    "bank": "Hatton National Bank PLC Visa Gold/ AAT /ODEL",
+    "type": "CREDIT Visa Gold/ AAT /ODEL"
+  },
+  {
+    "bin": 428417,
+    "bank": "Hatton National Bank PLC Visa Platinum/ CA Sri Lanka / Royal College / Sri Lankan Air Lines/",
+    "type": "CREDIT Visa Platinum/ CA Sri Lanka / Royal College / Sri Lankan Air Lines/\nPAPAL"
+  },
+  {
+    "bin": 472636,
+    "bank": "Hatton National Bank PLC Visa Infinite",
+    "type": "CREDIT Visa Infinite"
+  },
+  {
+    "bin": 488910,
+    "bank": "Hatton National Bank PLC Visa Signature/ Sri Lankan Air Lines/ CA Sri Lanka",
+    "type": "CREDIT Visa Signature/ Sri Lankan Air Lines/ CA Sri Lanka"
+  },
+  {
+    "bin": 510491,
+    "bank": "HATTON NATIONAL BANK PLC",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 542190,
+    "bank": "HATTON NATIONAL BANK PLC",
+    "type": "CREDIT Ranaviru"
+  },
+  {
+    "bin": 517210,
+    "bank": "HATTON NATIONAL BANK PLC MasterCard Corporate",
+    "type": "CREDIT MasterCard Corporate"
+  },
+  {
+    "bin": 517402,
+    "bank": "HATTON NATIONAL BANK PLC MasterCard World",
+    "type": "CREDIT MasterCard World"
+  },
+  {
+    "bin": 548804,
+    "bank": "HATTON NATIONAL BANK PLC MasterCard Local",
+    "type": "CREDIT MasterCard Local"
+  },
+  {
+    "bin": 548805,
+    "bank": "HATTON NATIONAL BANK PLC MasterCard Gold",
+    "type": "CREDIT MasterCard Gold"
+  },
+  {
+    "bin": 548806,
+    "bank": "HATTON NATIONAL BANK PLC MasterCard International",
+    "type": "CREDIT MasterCard International"
+  },
+  {
+    "bin": 548807,
+    "bank": "HATTON NATIONAL BANK PLC MasterCard International Gold",
+    "type": "CREDIT MasterCard International Gold"
+  },
+  {
+    "bin": 558339,
+    "bank": "HATTON NATIONAL BANK PLC MasterCard International Gold",
+    "type": "CREDIT Mastercard Business"
+  },
+  {
+    "bin": 421675,
+    "bank": "HATTON NATIONAL BANK PLC",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 428321,
+    "bank": "Hatton National Bank PLC",
+    "type": "DEBIT Domestic Debit"
+  },
+  {
+    "bin": 428398,
+    "bank": "Hatton National Bank PLC",
+    "type": "DEBIT Classic Debit"
+  },
+  {
+    "bin": 458868,
+    "bank": "Hatton National Bank PLC",
+    "type": "DEBIT Platinum Debit"
+  },
+  {
+    "bin": 455516,
+    "bank": "Hatton National Bank PLC",
+    "type": "DEBIT  Salary Smart"
+  },
+  {
+    "bin": 462455,
+    "bank": "Hatton National Bank PLC",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 470920,
+    "bank": "Hatton National Bank PLC",
+    "type": "DEBIT Wally-E Pre Paid"
+  },
+  {
+    "bin": 514346,
+    "bank": "Hatton National Bank PLC",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 518256,
+    "bank": "Hatton National Bank PLC",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 462454,
+    "bank": "Hatton National Bank PLC",
+    "type": "PREPAID"
+  },
+  {
+    "bin": 490018,
+    "bank": "L B FINANCE PLC",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 410095,
+    "bank": "Lanka Orix Finance PLC",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 416802,
+    "bank": "National Development Bank PLC",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 437555,
+    "bank": "National Development Bank PLC",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 437556,
+    "bank": "National Development Bank PLC",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 438535,
+    "bank": "National Development Bank PLC",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 481544,
+    "bank": "National Development Bank PLC",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 481545,
+    "bank": "National Development Bank PLC",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 481546,
+    "bank": "National Development Bank PLC",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 404186,
+    "bank": "National Development Bank PLC",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 418122,
+    "bank": "National Development Bank PLC",
+    "type": "PREPAID"
+  },
+  {
+    "bin": 418247,
+    "bank": "National Development Bank PLC",
+    "type": "PREPAID"
+  },
+  {
+    "bin": 483560,
+    "bank": "National Savings Bank",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 517580,
+    "bank": "National Savings Bank",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 531191,
+    "bank": "National Savings Bank",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 539986,
+    "bank": "National Savings Bank",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 552474,
+    "bank": "NATIONS TRUST BANK PLC",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 524615,
+    "bank": "NATIONS TRUST BANK PLC",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 526927,
+    "bank": "NATIONS TRUST BANK PLC",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 533140,
+    "bank": "NATIONS TRUST BANK PLC",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 513364,
+    "bank": "NATIONS TRUST BANK PLC",
+    "type": "PREPAID"
+  },
+  {
+    "bin": 516582,
+    "bank": "NATIONS TRUST BANK PLC",
+    "type": "PREPAID"
+  },
+  {
+    "bin": 442442,
+    "bank": "PAN Asia Banking Corporation PLC",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 454486,
+    "bank": "People's Bank",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 454487,
+    "bank": "People's Bank",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 454488,
+    "bank": "People's Bank",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 454489,
+    "bank": "People's Bank",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 405534,
+    "bank": "People's Bank",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 436561,
+    "bank": "People's Bank",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 469342,
+    "bank": "People's Bank",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 512940,
+    "bank": "People's Bank",
+    "type": ""
+  },
+  {
+    "bin": 402672,
+    "bank": "SAMPATH BANK PLC",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 437509,
+    "bank": "SAMPATH BANK PLC",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 450582,
+    "bank": "SAMPATH BANK PLC",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 486295,
+    "bank": "SAMPATH BANK PLC",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 486296,
+    "bank": "SAMPATH BANK PLC",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 488958,
+    "bank": "SAMPATH BANK PLC",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 489979,
+    "bank": "SAMPATH BANK PLC",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 489980,
+    "bank": "SAMPATH BANK PLC",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 521597,
+    "bank": "SAMPATH BANK PLC",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 522141,
+    "bank": "SAMPATH BANK PLC",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 524051,
+    "bank": "SAMPATH BANK PLC",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 524522,
+    "bank": "SAMPATH BANK PLC",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 534178,
+    "bank": "SAMPATH BANK PLC",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 540630,
+    "bank": "SAMPATH BANK PLC",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 542127,
+    "bank": "SAMPATH BANK PLC",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 547165,
+    "bank": "SAMPATH BANK PLC",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 552805,
+    "bank": "SAMPATH BANK PLC",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 559316,
+    "bank": "SAMPATH BANK PLC",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 413541,
+    "bank": "SAMPATH BANK PLC",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 453213,
+    "bank": "SAMPATH BANK PLC",
+    "type": "DEBIT  Platinum"
+  },
+  {
+    "bin": 538147,
+    "bank": "SAMPATH BANK PLC",
+    "type": "DEBIT  Platinum"
+  },
+  {
+    "bin": 457551,
+    "bank": "Sanasa Development Bank Ltd.",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 452064,
+    "bank": "Senkadagala Finance PLC",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 451190,
+    "bank": "SEYLAN BANK PLC",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 451192,
+    "bank": "SEYLAN BANK PLC",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 451193,
+    "bank": "SEYLAN BANK PLC",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 470972,
+    "bank": "SEYLAN BANK PLC",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 524118,
+    "bank": "SEYLAN BANK PLC",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 530091,
+    "bank": "SEYLAN BANK PLC",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 541902,
+    "bank": "SEYLAN BANK PLC",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 409641,
+    "bank": "SEYLAN BANK PLC",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 414395,
+    "bank": "SEYLAN BANK PLC",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 451195,
+    "bank": "SEYLAN BANK PLC",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 521085,
+    "bank": "SEYLAN BANK PLC",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 557676,
+    "bank": "SEYLAN BANK PLC",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 421347,
+    "bank": "SEYLAN BANK PLC",
+    "type": "PREPAID"
+  },
+  {
+    "bin": 421390,
+    "bank": "SEYLAN BANK PLC",
+    "type": "PREPAID"
+  },
+  {
+    "bin": 421391,
+    "bank": "SEYLAN BANK PLC",
+    "type": "PREPAID"
+  },
+  {
+    "bin": 421608,
+    "bank": "SEYLAN BANK PLC",
+    "type": "PREPAID"
+  },
+  {
+    "bin": 421658,
+    "bank": "SEYLAN BANK PLC",
+    "type": "PREPAID"
+  },
+  {
+    "bin": 437796,
+    "bank": "SEYLAN BANK PLC",
+    "type": "PREPAID"
+  },
+  {
+    "bin": 453771,
+    "bank": "SEYLAN BANK PLC",
+    "type": "PREPAID"
+  },
+  {
+    "bin": 453772,
+    "bank": "SEYLAN BANK PLC",
+    "type": "PREPAID"
+  },
+  {
+    "bin": 470949,
+    "bank": "SEYLAN BANK PLC",
+    "type": "PREPAID"
+  },
+  {
+    "bin": 416228,
+    "bank": "SINGER FINANCE (LANKA) PLC",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 416229,
+    "bank": "SINGER FINANCE (LANKA) PLC",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 419982,
+    "bank": "STANDARD CHARTERED BANK",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 419983,
+    "bank": "STANDARD CHARTERED BANK",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 428421,
+    "bank": "STANDARD CHARTERED BANK",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 450594,
+    "bank": "STANDARD CHARTERED BANK",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 450595,
+    "bank": "STANDARD CHARTERED BANK",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 541374,
+    "bank": "STANDARD CHARTERED BANK",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 541973,
+    "bank": "STANDARD CHARTERED BANK",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 421533,
+    "bank": "STANDARD CHARTERED BANK",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 421534,
+    "bank": "STANDARD CHARTERED BANK",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 421535,
+    "bank": "STANDARD CHARTERED BANK",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 436573,
+    "bank": "THE HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 467913,
+    "bank": "THE HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 472076,
+    "bank": "THE HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 491013,
+    "bank": "THE HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 491014,
+    "bank": "THE HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 492293,
+    "bank": "THE HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 517964,
+    "bank": "THE HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 542937,
+    "bank": "THE HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 542949,
+    "bank": "THE HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 464947,
+    "bank": "THE HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 464948,
+    "bank": "THE HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 464949,
+    "bank": "THE HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 464950,
+    "bank": "THE HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 484771,
+    "bank": "THE HONGKONG AND SHANGHAI BANKING CORPORATION LIMITED",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 464178,
+    "bank": "Union Bank of Colombo Ltd",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 520202,
+    "bank": "LOLC Finance",
+    "type": "DEBIT"
+  },
+  {
+    "bin": 519479,
+    "bank": "CITIZEN DEVELOPMENT",
+    "type": "CREDIT"
+  },
+  {
+    "bin": 554642,
+    "bank": "CITIZEN DEVELOPMENT",
+    "type": "CREDIT"
+  }
+]
