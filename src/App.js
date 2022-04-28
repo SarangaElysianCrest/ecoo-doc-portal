@@ -16,6 +16,9 @@ function App() {
           <Route path={"/approvalProcess/companyRegistration"}>
             <RegApprovalProcessHome />
           </Route>
+          <Route path={"/"}>
+            <a href="/web/companyRegistration">Go to dashboard</a>
+          </Route>
         </Switch>
       </Router>
     </Suspense>
