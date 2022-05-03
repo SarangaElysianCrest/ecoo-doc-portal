@@ -6,7 +6,7 @@ import Menu from "@material-ui/core/Menu";
 import MenuItem from "@material-ui/core/MenuItem";
 import { Link } from "react-router-dom";
 import { SectionColumn, SectionRow } from "../../components/section";
-import { Avatar } from "@material-ui/core";
+import { Avatar, Chip } from "@material-ui/core";
 import PopupButton from "../../components/buttons/PopupButton";
 
 const Navigation = () => {

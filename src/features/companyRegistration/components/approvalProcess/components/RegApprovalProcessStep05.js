@@ -97,7 +97,8 @@ const RegApprovalProcessStep05 = (props) => {
               pdfStatusArray={[false]}
               onApprove={() => setOpenConfirm(true)}
               // // step='step05'
-              label={"Approve"}
+              label={true}
+              name="Finish"
             />
 
             <ConfirmPrompt

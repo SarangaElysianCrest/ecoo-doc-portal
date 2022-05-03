@@ -193,7 +193,7 @@ const RegApprovalProcessStep02 = (props) => {
                 pdfStatusArray={getStates(pdfState)}
                 onApprove={handleApprove}
                 step="step03"
-                label={checker(getStates(pdfState)) ? "Approve All" : "Approve"}
+                label={checker(getStates(pdfState))}
               />
             </SectionRow>
           </SectionColumn>

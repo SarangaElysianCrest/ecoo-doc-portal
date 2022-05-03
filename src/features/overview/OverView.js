@@ -49,7 +49,7 @@ const OverView = (props) => {
         />
       </SectionRow>
       <SectionRow className="mt-5">
-        <span className="overViewTitle">Department Status</span>
+        <span className="overViewTitle">Application Status</span>
       </SectionRow>
       <SectionRow>
         <DashDetailCard
@@ -60,12 +60,12 @@ const OverView = (props) => {
           <CompRegRow title="Resubmitted" value="4" color="#ffc652" />
           <CompRegRow title="Completed" value="62" color="#fea6a6" />
         </DashDetailCard>
-        <DashDetailCard title="E-COO" path="/web/ecoo">
+        <DashDetailCard title="Certificate of Origin" path="/web/ecoo">
           <CompRegRow title="New Registration" value="53" color="#8df1bc" />
           <CompRegRow title="Resubmitted" value="4" color="#ffc652" />
           <CompRegRow title="Completed" value="83" color="#fea6a6" />
         </DashDetailCard>
-        <DashDetailCard title="TRQC" path="/web/trqc">
+        <DashDetailCard title="Quota Application" path="/web/trqc">
           <CompRegRow title="New Registration" value="5" color="#8df1bc" />
           <CompRegRow title="Resubmitted" value="1" color="#ffc652" />
           <CompRegRow title="Completed" value="60" color="#fea6a6" />
