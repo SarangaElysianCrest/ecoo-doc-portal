@@ -26,18 +26,18 @@ export default function ConfirmPrompt({
         aria-labelledby="draggable-dialog-title"
       >
         <DialogTitle style={{ cursor: "move" }} id="draggable-dialog-title">
-          Subscribe
+            Registration Confirmation !
         </DialogTitle>
         <DialogContent>
           <DialogContentText>
-            Are you sure you want to Approve this documents
+            Are you sure you want to Approve this Registration
           </DialogContentText>
         </DialogContent>
         <DialogActions>
           <Button autoFocus onClick={handleClose}>
             Cancel
           </Button>
-          <Button onClick={handleClose}>Approve</Button>
+          <Button onClick={()=> window.open('/web/companyRegistration',"_self")}>Approve</Button>
         </DialogActions>
       </Dialog>
     </div>

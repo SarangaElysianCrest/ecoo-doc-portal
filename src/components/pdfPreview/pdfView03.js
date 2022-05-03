@@ -1,13 +1,26 @@
 import { useEffect, useRef, useState } from "react";
 import WebViewer from "@pdftron/webviewer";
+import { SectionRow } from "../section";
+import RoundedButton from "../buttons/RoundedButtons";
+import RejectDialog from "../alerts/rejectPrompt";
 
 // now: accept relative pdf path of pdf in public/pdf dir
 // todo: accept pdf id and fetch from file server
 
-export default function PDFView03(props) {
+export default function PDFView02(props) {
   const viewer = useRef(null);
   const [render, setRender] = useState(false);
+  const [open, setOpen] = useState(false);
+
   console.log(props.path);
+
+  const handleClickOpen = () => {
+    setOpen(true);
+  };
+
+  const handleClose = () => {
+    setOpen(false);
+  };
 
   const viewerDiv = useRef < HTMLDivElement > null;
 
@@ -49,21 +62,31 @@ export default function PDFView03(props) {
         display: "flex",
         alignItems: "center",
         flexDirection: "column",
-        height: "100vh",
+        height: "40h",
         justifyContent: "center",
-        backgroundColor: "#ccc",
+        backgroundColor: "#fff",
+        borderWidth: "5px",
+        borderColor: "#e9e9e9;",
+        borderRadius: "20px",
       }}
     >
-      <div className="header">PDF Viewer</div>
+      <div className="header">VAT Certificate</div>
       <div
         className="webviewer"
         ref={viewer}
-        style={{ height: "800px", width: "650px", borderRadius: "20px" }}
+        style={{ height: "400px", width: "650px", borderRadius: "20px" }}
       ></div>
+      <SectionRow>
+        <RejectDialog
+          handleClickOpen={handleClickOpen}
+          handleClose={handleClose}
+          isOpen={open}
+        />
+      </SectionRow>
       <div
         className="buttonContainer"
         style={{
-          height: "50px",
+          // height: "50px",
           width: "750px",
           borderRadius: "20px",
 

@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-
+import nodataImage from "../../assets/DOC/undraw_no_data_re_kwbl.svg";
 export default function NpPdf() {
   return (
     <React.Fragment>
@@ -8,16 +8,25 @@ export default function NpPdf() {
           display: "flex",
           alignItems: "center",
           flexDirection: "column",
-          height: "100vh",
+          height: "70vh",
           justifyContent: "center",
-          backgroundColor: "#ccc",
+          backgroundColor: "#fff",
+          borderWidth: "5px",
+          borderColor: "#e9e9e9;",
+          borderRadius: "20px",
         }}
       >
         <div
-          className="webviewer"
+          className="webviewer pt-20"
           style={{ height: "800px", width: "650px", borderRadius: "20px" }}
         >
-          <span className="noSelectedFile ml-60 mt-20">No Selected file</span>
+          <span className="noSelectedFile ml-72 ">No Selected file</span>
+          <img
+            className="ml-40 mt-10 opacity-50 "
+            width={300}
+            height={300}
+            src={nodataImage}
+          />
         </div>
         <div
           className="buttonContainer"

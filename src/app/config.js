@@ -6,44 +6,44 @@ import logOutIcon from "../assets/images/DashboardIcons/logOutIcon.png";
 import MenuIcon from "../assets/images/DashboardIcons/MenuIcon.png";
 
 const config = {
-  drawer: [
-    {
-      icon: MenuIcon,
-      label: "Overview",
-      path: "/web/overview",
-    },
-    {
-      icon: ComapyregIcon,
-      label: "COMP. REG.",
-      path: "/web/companyRegistration",
-    },
-    {
-      icon: EcooImage,
-      label: "ECoO",
-      path: "/web/ecoo",
-    },
-    {
-      icon: TrqqcIcon,
-      label: "TRQC",
-      path: "/web/trqc",
-    },
-    {
-      icon: prifileIcon,
-      label: "PROFILE",
-      path: "/web/profile",
-    },
-    {
-      icon: logOutIcon,
-      label: "LOG OUT",
-      path: "",
-    },
-    // {
-    //   icon: "",
-    //   label: "M5",
-    //   path: "/web/shop",
-    //   path2: "/web/shops/",
-    // },
-  ],
+	drawer: [
+		{
+			icon: MenuIcon,
+			label: "Overview",
+			path: "/web/overview",
+		},
+		{
+			icon: ComapyregIcon,
+			label: "Company Registration",
+			path: "/web/companyRegistration",
+		},
+		{
+			icon: EcooImage,
+			label: "ECoO Application",
+			path: "/web/ecoo",
+		},
+		{
+			icon: TrqqcIcon,
+			label: "TRQC",
+			path: "/web/trqc",
+		},
+		{
+			icon: prifileIcon,
+			label: "PROFILE",
+			path: "/web/profile",
+		},
+		{
+			icon: logOutIcon,
+			label: "LOG OUT",
+			path: "",
+		},
+		// {
+		//   icon: "",
+		//   label: "M5",
+		//   path: "/web/shop",
+		//   path2: "/web/shops/",
+		// },
+	],
 };
 
 export default config;

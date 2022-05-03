@@ -976,7 +976,7 @@
   width: 354px;
   height: 14px;
   flex-grow: 0;
-  margin: 180px 0 0;
+  margin: 10px 0 0;
   font-family: $Poppins;
   font-size: 10px;
   font-weight: normal;
@@ -986,6 +986,8 @@
   letter-spacing: 0.48px;
   text-align: center;
   color: $LightGrayText;
+  bottom: 10px;
+  position: absolute;
 }
 
 
@@ -1041,7 +1043,7 @@
 
 .loginText {
   flex-grow: 0;
-  margin-top: 70px;
+  margin-top: 35px;
   margin-bottom: 10px;
   font-family: $Poppins;
   font-size: 20px;

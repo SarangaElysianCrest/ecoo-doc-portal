@@ -13,6 +13,10 @@ function Registration() {
 	const handleLogin = () => {
 		history.push("/login");
 	};
+
+	const handleRoute = () => {
+		history.push("/web/overview");
+	};
 	return (
 		<div className='loginContainer'>
 			<Section className='h-full '>
@@ -23,7 +27,7 @@ function Registration() {
 						</div>
 						<span className='docText'>Department of Commerce</span>
 						<span className='docSubText'>Electronic Certificate of Origin</span>
-						<RegistrationCard />
+						<RegistrationCard handleRoute={handleRoute} />
 						<span className='copyrightText'>
 							Copyright 2022 Department of Commerce. All Rights Reserved.
 						</span>

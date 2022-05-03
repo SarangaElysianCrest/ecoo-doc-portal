@@ -1,5 +1,9 @@
 import { useEffect, useRef, useState } from "react";
 import WebViewer from "@pdftron/webviewer";
+import { SectionRow } from "../section";
+import RoundedButton from "../buttons/RoundedButtons";
+import RejectDialog from "../alerts/rejectPrompt";
+import AcceptButton from "../buttons/acceptbutton";
 
 // now: accept relative pdf path of pdf in public/pdf dir
 // todo: accept pdf id and fetch from file server
@@ -7,24 +11,19 @@ import WebViewer from "@pdftron/webviewer";
 export default function PDFView02(props) {
   const viewer = useRef(null);
   const [render, setRender] = useState(false);
+  const [open, setOpen] = useState(false);
+
   console.log(props.path);
 
-  const viewerDiv = useRef < HTMLDivElement > null;
+  const handleClickOpen = () => {
+    setOpen(true);
+  };
 
-  // useEffect(() => {
-  //   WebViewer(
-  //     {
-  //       path: "lib",
-  //       initialDoc:
-  //         "http://bnr.wp.gov.lk/sin/wp-content/uploads/2019/07/Thani-Pudgala.pdf",
-  //     },
-  //     viewer.current
-  //   ).then((instance) => {
-  //     const { docViewer } = instance;
-  //     instance.UI.disableElements(["ribbons"]);
-  //     instance.UI.disableElements(["toolsHeader"]);
-  //   });
-  // }, []);
+  const handleClose = () => {
+    setOpen(false);
+  };
+
+  const viewerDiv = useRef < HTMLDivElement > null;
 
   useEffect(() => {
     // window.location.reload();
@@ -49,21 +48,31 @@ export default function PDFView02(props) {
         display: "flex",
         alignItems: "center",
         flexDirection: "column",
-        height: "100vh",
+        height: "40h",
         justifyContent: "center",
-        backgroundColor: "#ccc",
+        backgroundColor: "#fff",
+        borderWidth: "5px",
+        borderColor: "#e9e9e9;",
+        borderRadius: "20px",
       }}
     >
-      <div className="header">PDF Viewer</div>
+      <div className="header">BR Certificate</div>
       <div
         className="webviewer"
         ref={viewer}
-        style={{ height: "800px", width: "650px", borderRadius: "20px" }}
+        style={{ height: "400px", width: "650px", borderRadius: "20px" }}
       ></div>
+      <SectionRow>
+        <RejectDialog
+          handleClickOpen={handleClickOpen}
+          handleClose={handleClose}
+          isOpen={open}
+        />
+      </SectionRow>
       <div
         className="buttonContainer"
         style={{
-          height: "50px",
+          // height: "50px",
           width: "750px",
           borderRadius: "20px",
 

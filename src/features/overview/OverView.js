@@ -7,6 +7,9 @@ import CompRegRow from "../../components/cards/compRegRow";
 import TimePeriodSelection from "../../components/cards/timePeriodSelection";
 import StatCard from "../../components/cards/statCard";
 import AccountantRow from "../../components/cards/accountantRow";
+import DoneIcon from "../../assets/images/DashboardIcons/doneIcon.svg";
+import SpendingIcon from "../../assets/images/Monthly Spending.svg";
+import AcceptButton from "../../components/buttons/acceptbutton";
 
 const OverView = (props) => {
   return (
@@ -15,22 +18,38 @@ const OverView = (props) => {
         <div className="w-9/12"></div>
         <TimePeriodSelection />
       </SectionRow>
+      <SectionRow className="mb-5">
+        <span className="overViewTitle">Approval Summery</span>
+      </SectionRow>
       <SectionRow>
         <StatCard
           value={"234"}
           text={"Approved in this Period"}
           presentage={"20.6"}
+          image={
+            "https://img.icons8.com/ios-filled/50/6EEDA8/checkmark--v1.png"
+          }
+          accent={"#E3FEF3"}
         />
         <StatCard
           value={"34"}
           text={"Pending in this Period"}
           presentage={"70.2"}
+          image={"https://img.icons8.com/ios/50/FFBA32/timer.png"}
+          accent={"#FFF5D2"}
         />
         <StatCard
           value={"14"}
           text={"Rejected in this Period"}
           presentage={"20.6"}
+          image={
+            "https://img.icons8.com/material-outlined/50/FB6161/cancel--v1.png"
+          }
+          accent={"#FFE2E2"}
         />
+      </SectionRow>
+      <SectionRow className="mt-5">
+        <span className="overViewTitle">Department Status</span>
       </SectionRow>
       <SectionRow>
         <DashDetailCard
