@@ -56,7 +56,6 @@ export default function PDFView02(props) {
         borderRadius: "20px",
       }}
     >
-      <div className="header">BR Certificate</div>
       <div
         className="webviewer"
         ref={viewer}

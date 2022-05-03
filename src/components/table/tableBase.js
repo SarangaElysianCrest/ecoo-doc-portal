@@ -95,7 +95,7 @@ const TableBase = (props) => {
 
 	const data = [
 		[
-			"Heyleys  PLC",
+			"Hayleys  PLC",
 			"202005176845",
 			"25 Foster Ln, Colombo 00100",
 			"921040",
@@ -128,7 +128,7 @@ const TableBase = (props) => {
 			"124885",
 			"Ramzi Mohomad",
 			"0774567234",
-			"Approved",
+			"Rejected",
 		],
 	];
 
