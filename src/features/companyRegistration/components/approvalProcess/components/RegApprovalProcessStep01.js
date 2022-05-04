@@ -95,8 +95,8 @@ const RegApprovalProcessStep01 = (props) => {
 
 				<SectionRow className='w-4/12 flex'>
 					<SectionColumn>
-						<span class='BusinessRegistrationText'>Product Infomation</span>
-						<span class='Checked-and-Approvel-by'>Checked and Approvel by:</span>
+						<span class='BusinessRegistrationText'>Product Information</span>
+						<span class='Checked-and-Approvel-by'>Checked and approved by :</span>
 						<span class='userName'>Mr.Herath (CRO)</span>
 						<SectionRow className='mb-5'>
 							<span className='dateAndTime'>2021.12.08 &nbsp;&nbsp;</span>
@@ -108,7 +108,7 @@ const RegApprovalProcessStep01 = (props) => {
 							<div className=' w-7/12  m-1 Business-Name'>Fibre Brush</div>
 						</div>
 						<div className='Rectangle-1 flex-row flex'>
-							<div className=' w-4/12  m-1 Business-Name'>Product Catagory</div>
+							<div className=' w-4/12  m-1 Business-Name'>Product Category</div>
 							<div className=' w-1/12  m-1 Business-Name'>:</div>
 							<div className=' w-7/12  m-1 Business-Name'>Non-Wholly</div>
 						</div>
@@ -133,7 +133,7 @@ const RegApprovalProcessStep01 = (props) => {
 								<SectionRow>
 									<FileUploadButton
 										image={BrCertificateImg}
-										btnName='Cost Statment'
+										btnName='Cost Statement'
 										onClick={handleSelectPdf}
 										path={pdfPaths[0]}
 										isSelected={"BR Certificate"}

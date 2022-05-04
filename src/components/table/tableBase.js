@@ -12,9 +12,10 @@ const TableBase = (props) => {
 
 	const columns = [
 		{
-			name: "a",
+			name: "companyName",
 			label: "Company Name",
 			options: {
+				filter: false,
 				customBodyRenderLite: (dataIndex, rowIndex) => (
 					<div>
 						<BusinessIcon />
@@ -25,52 +26,73 @@ const TableBase = (props) => {
 			},
 		},
 		{
-			name: "b",
+			name: "brn",
 			label: "BRN",
+			options: {
+				filter: false,
+			}
 		},
 		{
-			name: "c",
-			label: "Address",
+			name: "date&time",
+			label: "Date & Time",
 			options: {
-				filter: true,
-				sort: false,
+				filter: false,
+				sort: true,
+				customBodyRenderLite: (dataIndex, rowIndex) => (
+					<div className='flex justify-start'>
+						{data[dataIndex][2]}&nbsp;-&nbsp;{data[dataIndex][3]}
+					</div>
+				),
 			},
 		},
 		{
-			name: "d",
-			label: "HS Code",
+			name: "destinationCountry",
+			label: "Destination Country",
 			options: {
+				filter: false,
 				customBodyRenderLite: (dataIndex, rowIndex) => (
-					<div className='flex justify-center'>{data[dataIndex][3]}</div>
+					<div className='flex justify-center'>{data[dataIndex][4]}</div>
 				),
 			},
 		},
 		{
 			name: "e",
+			label: "HSCode",
+			options: {
+				filter: true,
+				customBodyRenderLite: (dataIndex, rowIndex) => (
+					<div className='flex justify-start ml-4'>{data[dataIndex][5]}</div>
+				),
+			},
+		},
+		{
+			name: "contactPerson",
 			label: "Contact Person",
 			options: {
+				filter: false,
 				customBodyRenderLite: (dataIndex, rowIndex) => (
-					<div className='flex justify-center text-center'>
+					<div className='flex justify-start text-center'>
 						<div>
-							<div>{data[dataIndex][4]}</div>
-							<div>({data[dataIndex][5]})</div>
+							<div>{data[dataIndex][6][0]}</div>
+							<div>({data[dataIndex][6][1]})</div>
 						</div>
 					</div>
 				),
 			},
 		},
 		{
-			name: "f",
+			name: "status",
 			label: "Status",
 			options: {
+				filter: false,
 				customBodyRenderLite: (dataIndex, rowIndex) => (
 					<div className='flex justify-center'>
-						{data[dataIndex][6] === "Pending" ? (
-							<Chip label={data[dataIndex][6]} className='pending' size='small' />
-						) : data[dataIndex][6] === "Rejected" ? (
-							<Chip label={data[dataIndex][6]} className='fail' size='small' />
+						{data[dataIndex][7] === "Pending" ? (
+							<Chip label={data[dataIndex][7]} className='pending' size='small' />
+						) : data[dataIndex][7] === "Rejected" ? (
+							<Chip label={data[dataIndex][7]} className='fail' size='small' />
 						) : (
-							<Chip label={data[dataIndex][6]} className='success' size='small' />
+							<Chip label={data[dataIndex][7]} className='success' size='small' />
 						)}
 					</div>
 				),
@@ -80,6 +102,7 @@ const TableBase = (props) => {
 			name: "action",
 			label: "Action",
 			options: {
+				filter: true,
 				customBodyRenderLite: (dataIndex, rowIndex) => (
 					<div className='justify-center flex '>
 						<Eye
@@ -95,40 +118,48 @@ const TableBase = (props) => {
 
 	const data = [
 		[
-			"Hayleys  PLC",
-			"202005176845",
-			"25 Foster Ln, Colombo 00100",
-			"921040",
-			"Nimal Perera",
-			"0774567389",
-			"Pending",
-		],
-		[
-			"Expolanka(Pvt)",
-			"354005172346",
-			"390/Avissawella rd, Orugodawatte",
-			"920192",
-			"Kamal Blasooriya",
-			"0774573648",
-			"Approved",
+			"Meezan Tea",
+			"353205172376",
+			"2022/04/28",
+			"13.58",
+			"Russia",
+			"124885",
+			["Ramzi Mohomad",
+			"0774567234"],
+			"Rejected",
 		],
 		[
 			"Empire Teas ",
 			"353205172345",
-			"190/1 Kelanimulla, Angoda",
+			"2022/05/01",
+			"15.32",
+			"India",
 			"125142",
-			"Suran Perera",
-			"0774568645",
+			["Suran Perera",
+			"0774568645"],
 			"Approved",
 		],
 		[
-			"Meezan Tea",
-			"353205172376",
-			"366, 10 Avissawella Rd, Wellampitiya",
-			"124885",
-			"Ramzi Mohomad",
-			"0774567234",
-			"Rejected",
+			"Expolanka(Pvt)",
+			"354005172346",
+			"2022/05/03",
+			"08.23",
+			"America",
+			"920192",
+			["Kamal Blasooriya",
+			"0774573648"],
+			"Approved",
+		],
+		[
+			"Hayleys  PLC",
+			"202005176845",
+			"2022/05/04",
+			"10.37",
+			"Singapore",
+			"921040",
+			["Nimal Perera",
+			"0774567389"],
+			"Pending",
 		],
 	];
 
@@ -136,6 +167,8 @@ const TableBase = (props) => {
 		filterType: "checkbox",
 		elevation: 1,
 		selectableRowsHideCheckboxes: true,
+		download: false,
+		print: false,
 	};
 
 	// CSS - table-base contains in styles.scss

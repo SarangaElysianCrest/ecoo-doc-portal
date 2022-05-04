@@ -4,9 +4,9 @@ import Section, {
   SectionRow,
 } from "../../../../../components/section";
 
-import PDFView01 from "../../../../../components/pdfPreview/pdfView01";
-import PDFView02 from "../../../../../components/pdfPreview/pdfView02";
-import PDFView03 from "../../../../../components/pdfPreview/pdfView03";
+import PDFView04 from "../../../../../components/pdfPreview/pdfView04";
+import PDFView05 from "../../../../../components/pdfPreview/pdfView05";
+import PDFView06 from "../../../../../components/pdfPreview/pdfView06";
 import RoundedButton from "../../../../../components/buttons/RoundedButtons";
 import FileViewButton from "../../../../../components/buttons/fileViewButton";
 import birthImg from "./../../../../../assets/DOC/br-certificate.svg";
@@ -27,6 +27,7 @@ import AdminPanelSettingsOutlinedIcon from "@mui/icons-material/AdminPanelSettin
 import NICImage from "../../../../../assets/images/DocImage/NIC.jpg";
 import NIC01 from "../../../../../assets/images/DocImage/NIC01.jpg";
 import NIC02 from "../../../../../assets/images/DocImage/NIC02.jpg";
+import NIC03 from "../../../../../assets/images/DocImage/NIC.jpg";
 import RejectButton from "../../../../../components/buttons/rejectButton";
 
 const pdfPaths = ["/pdf/sample1.pdf"];
@@ -37,7 +38,7 @@ const states = {
 let checker = (arr) => arr.every((v) => v === true);
 
 const RegApprovalProcessStep02 = (props) => {
-  const [pdfPath, setPdfPath] = useState("");
+  const [pdfPath, setPdfPath] = useState("/pdf/sample1.pdf");
   const history = useHistory();
   const [open, setOpen] = useState(false);
   const [pdfState, setPdfState] = useState(states);
@@ -53,15 +54,19 @@ const RegApprovalProcessStep02 = (props) => {
   const getPdfInstance = (path) => {
     switch (path) {
       case pdfPaths[0]:
-        return <PDFView01 path={pdfPaths[0]} />;
+        return <PDFView04 path={pdfPaths[0]} />;
       case pdfPaths[1]:
-        return <PDFView01 path={pdfPaths[1]} />;
+        return <PDFView05 path={pdfPaths[1]} />;
       case pdfPaths[2]:
-        return <PDFView01 path={pdfPaths[2]} />;
+        return <PDFView06 path={pdfPaths[2]} />;
       default:
         return <NpPdf />;
     }
   };
+
+  useEffect(() => {
+    getPdfInstance(0);
+  }, []);
 
   const handleClickOpen = () => {
     setOpen(true);
@@ -105,34 +110,34 @@ const RegApprovalProcessStep02 = (props) => {
   const person01 = {
     FullName: "Shehan Kaluthilake",
     designation: "Chairman",
-    nic: "973433156V",
+    nic: "812975487V",
     email: "shehanKalu@gmail.com",
-    mobileNumber: "0719959259",
-    telePhoneNumber: "011254515",
-    Address: "Kandawala, Rathmalana",
-    label: "Chairman Infomation",
+    mobileNumber: "0715427857",
+    telePhoneNumber: "0115825673",
+    Address: "70/E,Kandawala,Rathmalana",
+    label: "Chairman Information",
     NICImage: { NIC01 },
   };
   const person02 = {
     FullName: "Nulupul Kodikara",
     designation: "Managing Director",
-    nic: "973433156V",
+    nic: "911433156V",
     email: "niluKodi@gmail.com",
-    mobileNumber: "0719959259",
-    telePhoneNumber: "011254515",
-    Address: "Kandawala, Rathmalana",
-    label: "Manegment Infomation",
+    mobileNumber: "0717653125",
+    telePhoneNumber: "0119865357",
+    Address: "20/R Makola, Kiribathgoda",
+    label: "Management Information",
     NICImage: { NIC02 },
   };
   const person03 = {
     FullName: "Oshada Rathnayake",
     designation: "Managing Director",
-    nic: "973433156V",
+    nic: "890445156V",
     email: "oshada@gmail.com",
     mobileNumber: "0719959259",
     telePhoneNumber: "011254515",
-    Address: "Kandawala, Rathmalana",
-    label: "Manegment Infomation",
+    Address: "38/15/S Kadana, Ragama",
+    label: "Management Information",
     NICImage: { NIC01 },
   };
 
@@ -144,17 +149,23 @@ const RegApprovalProcessStep02 = (props) => {
           props={person01}
           setselectedPerson={setselectedPerson}
           image={AdminPanelSettingsOutlinedIcon}
+          onClick={handleSelectPdf}
+          path={pdfPaths[0]}
         />
         <ManagementSBTN
           props={person02}
           setselectedPerson={setselectedPerson}
           image={AccountCircleOutlinedIcon}
+          onClick={handleSelectPdf}
+          path={pdfPaths[1]}
         />
-        <ManagementSBTN
+        {/* <ManagementSBTN
           props={person03}
           setselectedPerson={setselectedPerson}
           image={AccountCircleOutlinedIcon}
-        />
+          onClick={handleSelectPdf}
+          path={pdfPaths[2]}
+        /> */}
       </SectionRow>
       <Section>
         <SectionRow className="w-1/12"></SectionRow>
@@ -162,7 +173,7 @@ const RegApprovalProcessStep02 = (props) => {
           <SectionColumn>
             <span class="BusinessRegistrationText">{selectedPerson.label}</span>
             <span class="Checked-and-Approvel-by">
-              Checked and Approvel by:
+              Checked and approved by :
             </span>
             <span class="userName">Mr.Herath (CRO)</span>
             <SectionRow className="mb-5">
@@ -221,32 +232,32 @@ const RegApprovalProcessStep02 = (props) => {
 
             <div className="docButton-wrapper">
               <div className="mt-1">
-                {/* <SectionRow>
-                  <FileUploadButton
+                <SectionRow>
+                  {/* <FileUploadButton
                     image={BrCertificateImg}
                     btnName="NIC"
                     onClick={handleSelectPdf}
                     path={pdfPaths[0]}
                     isSelected={"BR Certificate"}
                     state={pdfState["/pdf/sample1.pdf"]}
-                  />
-                </SectionRow> */}
+                  /> */}
+                </SectionRow>
               </div>
               <div></div>
             </div>
           </SectionColumn>
         </SectionRow>
-        <SectionRow className="w-1/12"></SectionRow>
-        <SectionRow className="w-4/12 ">
-          <div className="nicDiv">
-            {selectedPerson.label === "Chairman" ? (
-              <img src={NIC01} className="nicImage" />
-            ) : (
-              <img src={NIC02} className="nicImage" />
-            )}
-          </div>
-        </SectionRow>
-        {/* <SectionRow className="w-5/12 ">{getPdfInstance(pdfPath)}</SectionRow> */}
+        {/* <SectionRow className='w-1/12'></SectionRow>
+				<SectionRow className='w-4/12 '>
+					<div className='nicDiv'>
+						{selectedPerson.label === "Chairman" ? (
+							<img src={NIC01} className='nicImage' />
+						) : (
+							<img src={NIC02} className='nicImage' />
+						)}
+					</div>
+				</SectionRow> */}
+        <SectionRow className="w-5/12 ">{getPdfInstance(pdfPath)}</SectionRow>
         <SectionRow className="w-full ">
           <SectionColumn className="w-4/12 ml-10"></SectionColumn>
           <SectionColumn className="w-6/12">

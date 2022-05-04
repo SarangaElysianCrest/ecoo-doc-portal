@@ -3,7 +3,11 @@ import React from "react"
 
 const ManagementSBTN = (props,image ) => { 
 
+	const { onClick } = props;
+
+
     const handleClick = (personDetails) => { 
+		onClick(props.path);
 		console.log(props.image);
         console.log(personDetails);
         props.setselectedPerson(personDetails)
