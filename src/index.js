@@ -4,11 +4,17 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "tailwindcss/tailwind.css";
 import "./styles/styles.scss";
+import { StoreProvider } from "./app/context/store";
+import { AlertProvider } from "./app/context/alerts";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <StoreProvider>
+      <AlertProvider>
+        <App />
+      </AlertProvider>
+    </StoreProvider>
   </React.StrictMode>
 );
 

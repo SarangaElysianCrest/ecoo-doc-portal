@@ -922,10 +922,11 @@ svg {
 
 
 .managementBtn-icon-chirman {
-  background-color: #46ff99;
+  background-color: #32bea6;
   width: 40px;
   height: 40px;
 }
+
 .tran-icon-2 {
   position: absolute;
   text-align: center;
@@ -1401,7 +1402,7 @@ hr {
 
 .table {
   width: 100%;
-  height: 600px;
+  height: fit-content;
 }
 
 .subscription-logo {
@@ -2141,13 +2142,26 @@ hr {
   box-shadow: 0px 18px 42px 0 rgba(59, 77, 114, 0.08);
 }
 
-.managementBTN{
+.managementBTN {
   width: 200px;
   height: 60px;
   border-radius: 16px;
-  background-color: #f2f2f2;
+  // background-color: #f2f2f2;
   margin-right: 20px;
   box-shadow: 0px 18px 42px 0 rgba(59, 77, 114, 0.08);
+
+  &__select {
+    background-color: #4c94e7;
+  }
+
+  &__approve {
+    background-color: #32bea6;
+  }
+
+  &__transparent {
+    background-color: transparent;
+  }
+
 }
 
 .StatCardText {
@@ -2159,6 +2173,10 @@ hr {
   line-height: 0.91;
   letter-spacing: normal;
   color: #959595;
+}
+
+.StatCardText:hover {
+  font-size: 11.3px;
 }
 
 .StatCardValue {

@@ -1,177 +1,146 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import Section, {
   SectionColumn,
   SectionRow,
 } from "../../../../../components/section";
-
-import PDFView04 from "../../../../../components/pdfPreview/pdfView04";
-import PDFView05 from "../../../../../components/pdfPreview/pdfView05";
-import PDFView06 from "../../../../../components/pdfPreview/pdfView06";
-import RoundedButton from "../../../../../components/buttons/RoundedButtons";
-import FileViewButton from "../../../../../components/buttons/fileViewButton";
-import birthImg from "./../../../../../assets/DOC/br-certificate.svg";
-import AssignmentIndIcon from "@mui/icons-material/AssignmentInd";
-import { useHistory } from "react-router-dom";
-import ConfirmPrompt from "../../../../../components/alerts/confirmPrompt";
-import RejectDialog from "../../../../../components/alerts/rejectPrompt";
-import NpPdf from "../../../../../components/pdfPreview/NoPdf";
+import PopupButton from "../../../../../components/buttons/PopupButton";
 import ManagementSBTN from "../../../../../components/buttons/managementSBTN";
 
 // import BackImg from "../../../../public/assets/icons/back.svg";
-import BrCertificateImg from "../../../../../assets/icons/br-certificate.svg";
-import UploadDocImg from "../../../../../assets/icons/upload-doc.svg";
-import FileUploadButton from "../../../../../components/buttons/FileUploadButton";
 import AcceptButton from "../../../../../components/buttons/acceptbutton";
-import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined";
 import AdminPanelSettingsOutlinedIcon from "@mui/icons-material/AdminPanelSettingsOutlined";
-import NICImage from "../../../../../assets/images/DocImage/NIC.jpg";
-import NIC01 from "../../../../../assets/images/DocImage/NIC01.jpg";
-import NIC02 from "../../../../../assets/images/DocImage/NIC02.jpg";
-import NIC03 from "../../../../../assets/images/DocImage/NIC.jpg";
 import RejectButton from "../../../../../components/buttons/rejectButton";
+import ReaderPDF from "../../../../../components/pdfPreview/readerPDF";
+import {
+  checker,
+  makePersonArray,
+  updateStatus,
+} from "../../../../../Helpers/uiHelper";
+import PersonalInfoCard from "../../../../../components/cards/personalInfoCard";
+import { getFromStep3_adapter } from "../../../../../app/api/adapter";
+import { callAPI } from "../../../../../app/helper/useAPI";
+import { companyID } from "../RegApprovalProcessHome";
+import { getFileURL } from "../../../../../app/api/file_api";
+import { REG_APPROVAL } from "../../../../../app/routes";
+import DigitalSign from "../../../../../components/cards/digitalSignature";
 
-const pdfPaths = ["/pdf/sample1.pdf"];
-
-const states = {
-  "/pdf/sample1.pdf": false,
+const person01 = {
+  FullName: "Shehan Kaluthilake",
+  designation: "CHAIRMAN",
+  nic: "812975487V",
+  email: "shehanKalu@gmail.com",
+  mobileNumber: "0715427857",
+  telePhoneNumber: "0115825673",
+  Address: "70/E,Kandawala,Rathmalana",
+  label: "Chairman Information",
+  NICImage: "/image/NIC01.jpg",
+  isApprove: false,
 };
-let checker = (arr) => arr.every((v) => v === true);
+const person02 = {
+  FullName: "Nulupul Kodikara",
+  designation: "MANAGING DIRECTORE",
+  nic: "911433156V",
+  email: "niluKodi@gmail.com",
+  mobileNumber: "0717653125",
+  telePhoneNumber: "0119865357",
+  Address: "20/R Makola, Kiribathgoda",
+  label: "Management Information",
+  NICImage: "/image/NIC02.jpg",
+  isApprove: false,
+};
+const person03 = {
+  FullName: "Oshada Rathnayake",
+  designation: "MANAGING DIRECTORE",
+  nic: "890445156V",
+  email: "oshada@gmail.com",
+  mobileNumber: "0719959259",
+  telePhoneNumber: "011254515",
+  Address: "38/15/S Kadana, Ragama",
+  label: "Management Information",
+  NICImage: "/image/NIC03.jpg",
+  isApprove: false,
+};
+
+const _actors = [person01, person02, person03];
 
 const RegApprovalProcessStep02 = (props) => {
-  const [pdfPath, setPdfPath] = useState("/pdf/sample1.pdf");
-  const history = useHistory();
-  const [open, setOpen] = useState(false);
-  const [pdfState, setPdfState] = useState(states);
+  const [selectedPerson, setSelectedPerson] = useState("");
+  const [actors, setActors] = useState(_actors);
+  const [data, setData] = useState();
+  const [nicpath, setNicpath] = useState(null);
 
   useEffect(() => {
-    props.setActiveStep(2);
-  }, [props]);
-
-  const handleSelectPdf = (_pdfPath) => {
-    setPdfPath(_pdfPath);
-  };
-
-  const getPdfInstance = (path) => {
-    switch (path) {
-      case pdfPaths[0]:
-        return <PDFView04 path={pdfPaths[0]} />;
-      case pdfPaths[1]:
-        return <PDFView05 path={pdfPaths[1]} />;
-      case pdfPaths[2]:
-        return <PDFView06 path={pdfPaths[2]} />;
-      default:
-        return <NpPdf />;
-    }
-  };
-
-  useEffect(() => {
-    getPdfInstance(0);
+    callAPI(() => getFromStep3_adapter(companyID), setData);
   }, []);
 
-  const handleClickOpen = () => {
-    setOpen(true);
-  };
+  useEffect(() => {
+    setActors(makePersonArray(data));
+  }, [data]);
 
-  const handleClose = () => {
-    setOpen(false);
-  };
+  useEffect(() => {
+    if (selectedPerson) {
+      console.log("selectedPerson :", selectedPerson);
+      setNicpath(getFileURL(selectedPerson.NICBack));
+    }
+  }, [selectedPerson]);
 
-  const handleAccept = () => {
-    history.push("/approvalProcess/companyRegistration/step03");
-  };
-
-  const handleReject = () => {
-    handleClickOpen();
+  const handleClick = (_tab) => {
+    setSelectedPerson(_tab);
   };
 
   const getStates = (_state) => {
-    const arr = [];
-    for (const property in _state) {
-      console.log(`${property}: ${_state[property]}`);
-      arr.push(_state[property]);
-    }
-    return arr;
+    let arr = _state;
+    return arr?.map((file) => file.isApprove);
   };
+
+  const renderTabs = (array = []) => {
+    return array.map((tab) => (
+      <ManagementSBTN
+        state={tab}
+        image={AdminPanelSettingsOutlinedIcon}
+        onClick={() => handleClick(tab)}
+        designation={tab.designation}
+        className={
+          tab?.nic === selectedPerson?.nic
+            ? "managementBTN__select"
+            : tab.isApprove
+            ? "managementBTN__approve"
+            : ""
+        }
+      />
+    ));
+  };
+  useEffect(() => {
+    props.setActiveStep(2);
+    sessionStorage.setItem("currentStep", 2);
+  }, [props]);
 
   const handleApprove = () => {
-    // console.log(">>>>>>", pdfState);
-    // setPdfState({ ...pdfState, [pdfPath]: true });
-    window.open("/approvalProcess/companyRegistration/step04", "_self");
-  };
-
-  const [selectedPerson, setselectedPerson] = useState({});
-
-  useEffect(() => {
-    setselectedPerson(person01);
-  }, []);
-
-  console.log(selectedPerson.NICImage);
-
-  const person01 = {
-    FullName: "Shehan Kaluthilake",
-    designation: "Chairman",
-    nic: "812975487V",
-    email: "shehanKalu@gmail.com",
-    mobileNumber: "0715427857",
-    telePhoneNumber: "0115825673",
-    Address: "70/E,Kandawala,Rathmalana",
-    label: "Chairman Information",
-    NICImage: { NIC01 },
-  };
-  const person02 = {
-    FullName: "Nulupul Kodikara",
-    designation: "Managing Director",
-    nic: "911433156V",
-    email: "niluKodi@gmail.com",
-    mobileNumber: "0717653125",
-    telePhoneNumber: "0119865357",
-    Address: "20/R Makola, Kiribathgoda",
-    label: "Management Information",
-    NICImage: { NIC02 },
-  };
-  const person03 = {
-    FullName: "Oshada Rathnayake",
-    designation: "Managing Director",
-    nic: "890445156V",
-    email: "oshada@gmail.com",
-    mobileNumber: "0719959259",
-    telePhoneNumber: "011254515",
-    Address: "38/15/S Kadana, Ragama",
-    label: "Management Information",
-    NICImage: { NIC01 },
+    let index = actors.findIndex((act) => act.nic === selectedPerson.nic);
+    if (actors.length > index) {
+      setSelectedPerson(actors[index + 1]);
+    }
+    let newState = actors.map((act) =>
+      act.nic === selectedPerson.nic ? updateStatus(selectedPerson, true) : act
+    );
+    setActors(newState);
+    sessionStorage.setItem("completedSteps", 3);
   };
 
   return (
     <React.Fragment>
+      <div className="popupBtn">
+        <PopupButton />
+      </div>
       <SectionRow className="w-1/12"></SectionRow>
-      <SectionRow className="ml-28">
-        <ManagementSBTN
-          props={person01}
-          setselectedPerson={setselectedPerson}
-          image={AdminPanelSettingsOutlinedIcon}
-          onClick={handleSelectPdf}
-          path={pdfPaths[0]}
-        />
-        <ManagementSBTN
-          props={person02}
-          setselectedPerson={setselectedPerson}
-          image={AccountCircleOutlinedIcon}
-          onClick={handleSelectPdf}
-          path={pdfPaths[1]}
-        />
-        {/* <ManagementSBTN
-          props={person03}
-          setselectedPerson={setselectedPerson}
-          image={AccountCircleOutlinedIcon}
-          onClick={handleSelectPdf}
-          path={pdfPaths[2]}
-        /> */}
-      </SectionRow>
+      <SectionRow className="ml-28">{renderTabs(actors)}</SectionRow>
       <Section>
         <SectionRow className="w-1/12"></SectionRow>
         <SectionRow className="w-4/12 ">
           <SectionColumn>
-            <span class="BusinessRegistrationText">{selectedPerson.label}</span>
+            <span class="BusinessRegistrationText">
+              {selectedPerson?.label}
+            </span>
             <span class="Checked-and-Approvel-by">
               Checked and approved by :
             </span>
@@ -180,56 +149,10 @@ const RegApprovalProcessStep02 = (props) => {
               <span className="dateAndTime">2021.12.08 &nbsp;&nbsp;</span>
               <span className="dateAndTime">10:40AM</span>
             </SectionRow>
-            <div className="Rectangle-1 flex-row flex">
-              <div className=" w-4/12  m-1 Business-Name">Full Name</div>
-              <div className=" w-1/12  m-1 Business-Name">:</div>
-              <div className=" w-7/12  m-1 Business-Name">
-                {selectedPerson.FullName}
-              </div>
-            </div>
-            <div className="Rectangle-1 flex-row flex">
-              <div className=" w-4/12  m-1 Business-Name">Designation</div>
-              <div className=" w-1/12  m-1 Business-Name">:</div>
-              <div className=" w-7/12  m-1 Business-Name">
-                {selectedPerson.designation}
-              </div>
-            </div>
-            <div className="Rectangle-1 flex-row flex">
-              <div className=" w-4/12  m-1 Business-Name">NIC</div>
-              <div className=" w-1/12  m-1 Business-Name">:</div>
-              <div className=" w-7/12  m-1 Business-Name">
-                {selectedPerson.nic}
-              </div>
-            </div>
-            <div className="Rectangle-1 flex-row flex">
-              <div className=" w-4/12  m-1 Business-Name">email</div>
-              <div className=" w-1/12  m-1 Business-Name">:</div>
-              <div className=" w-7/12  m-1 Business-Name">
-                {selectedPerson.email}
-              </div>
-            </div>
-            <div className="Rectangle-1 flex-row flex">
-              <div className=" w-4/12  m-1 Business-Name">Mobile Number</div>
-              <div className=" w-1/12  m-1 Business-Name">:</div>
-              <div className=" w-7/12  m-1 Business-Name">
-                {selectedPerson.mobileNumber}
-              </div>
-            </div>
-            <div className="Rectangle-1 flex-row flex">
-              <div className=" w-4/12  m-1 Business-Name">Telephone</div>
-              <div className=" w-1/12  m-1 Business-Name">:</div>
-              <div className=" w-7/12  m-1 Business-Name">
-                {selectedPerson.telePhoneNumber}
-              </div>
-            </div>
-            <div className="Rectangle-1 flex-row flex">
-              <div className=" w-4/12  m-1 Business-Name">Address</div>
-              <div className=" w-1/12  m-1 Business-Name">:</div>
-              <div className=" w-7/12  m-1 Business-Name">
-                {selectedPerson.Address}
-              </div>
-            </div>
-
+            <PersonalInfoCard state={selectedPerson} />
+            <DigitalSign
+              path={selectedPerson && getFileURL(selectedPerson.sign)}
+            />
             <div className="docButton-wrapper">
               <div className="mt-1">
                 <SectionRow>
@@ -257,22 +180,20 @@ const RegApprovalProcessStep02 = (props) => {
 						)}
 					</div>
 				</SectionRow> */}
-        <SectionRow className="w-5/12 ">{getPdfInstance(pdfPath)}</SectionRow>
+        <SectionRow className="w-5/12 ">
+          {<ReaderPDF extension=".jpg" path={nicpath} />}
+        </SectionRow>
         <SectionRow className="w-full ">
           <SectionColumn className="w-4/12 ml-10"></SectionColumn>
           <SectionColumn className="w-6/12">
             <SectionRow className="w-10/12 justify-end">
-              <RejectButton
-                onClick={handleClickOpen}
-                handleClickOpen={handleClickOpen}
-                handleClose={handleClose}
-                open={open}
-              />
+              <RejectButton currentStep={3} nextRoute={REG_APPROVAL.step04} />
               <AcceptButton
-                pdfStatusArray={[false]}
+                pdfStatusArray={getStates(actors)}
                 onApprove={handleApprove}
                 step="step04"
-                label={checker(getStates(pdfState))}
+                label={checker(getStates(actors))}
+                nextBtnName="Next"
               />
             </SectionRow>
           </SectionColumn>

@@ -1,4 +1,4 @@
-import * as React from "react";
+import React, { useEffect, useState } from "react";
 import { Component } from "react";
 import MUIDataTable from "mui-datatables";
 import { Button, Chip } from "@material-ui/core";
@@ -6,10 +6,38 @@ import viewIcon from "../../assets/images/DocImage/viewIcon.png";
 import Eye from "@mui/icons-material/Visibility";
 import CustomStyleTable from "./customStyleTable";
 import BusinessIcon from "@mui/icons-material/Business";
+import axios from "axios";
+import { getCompanyRegDetailsByStatus } from "../../app/api/core_api";
+import { regApprovalStepsRoutes } from "../../app/routes";
 
-const TableBase = (props) => {
-  // const columns1 = ["Name", "Company", "City", "State","Action"];
+const TableBase = ({ selectedCard }) => {
+  const [companies, setCompanies] = useState();
 
+
+  // send selectedCard id
+  const getResponce = async () => {
+    let allCompanyData = [];
+    await getCompanyRegDetailsByStatus().then((res) => {
+      console.log("res", res);
+      res.data.map((c) => {
+        let dataC = {};
+        dataC.businessName = c.businessName;
+        dataC.brNumber = c.brNumber;
+        dataC.createdDate = c.createdDate;
+        dataC.destination = c.destination;
+        dataC.hsCode = c.hsCode;
+        dataC.fullName = c.fullName;
+        dataC.mobile = c.mobile;
+        dataC.tin = c.tin;
+        allCompanyData.push(dataC);
+      });
+      setCompanies(allCompanyData);
+      console.log("companies", companies);
+      console.log("allCompanyData", allCompanyData);
+    });
+  };
+
+  // TODO - update columns and data according to selected statCard by prop
   const columns = [
     {
       name: "companyName",
@@ -30,6 +58,16 @@ const TableBase = (props) => {
       label: "BRN",
       options: {
         filter: false,
+      },
+    },
+    {
+      name: "tin",
+      label: "TIN",
+      options: {
+        filter: false,
+        customBodyRenderLite: (dataIndex, rowIndex) => (
+          <div className="flex justify-center">{data[dataIndex][7]}</div>
+        ),
       },
     },
     {
@@ -80,32 +118,32 @@ const TableBase = (props) => {
         ),
       },
     },
-    {
-      name: "status",
-      label: "Status",
-      options: {
-        filter: false,
-        customBodyRenderLite: (dataIndex, rowIndex) => (
-          <div className="flex justify-center">
-            {data[dataIndex][7] === "Pending" ? (
-              <Chip
-                label={data[dataIndex][7]}
-                className="pending"
-                size="small"
-              />
-            ) : data[dataIndex][7] === "Rejected" ? (
-              <Chip label={data[dataIndex][7]} className="fail" size="small" />
-            ) : (
-              <Chip
-                label={data[dataIndex][7]}
-                className="success"
-                size="small"
-              />
-            )}
-          </div>
-        ),
-      },
-    },
+    // {
+    //   name: "status",
+    //   label: "Status",
+    //   options: {
+    //     filter: false,
+    //     customBodyRenderLite: (dataIndex, rowIndex) => (
+    //       <div className="flex justify-center">
+    //         {data[dataIndex][7] === "Pending" ? (
+    //           <Chip
+    //             label={data[dataIndex][7]}
+    //             className="pending"
+    //             size="small"
+    //           />
+    //         ) : data[dataIndex][7] === "Rejected" ? (
+    //           <Chip label={data[dataIndex][7]} className="fail" size="small" />
+    //         ) : (
+    //           <Chip
+    //             label={data[dataIndex][7]}
+    //             className="success"
+    //             size="small"
+    //           />
+    //         )}
+    //       </div>
+    //     ),
+    //   },
+    // },
     {
       name: "action",
       label: "Action",
@@ -116,9 +154,7 @@ const TableBase = (props) => {
             <Eye
               onClick={() => {
                 let id = data[dataIndex][3];
-                window.open(
-                  `/approvalProcess/companyRegistration/step01?id=${id}`
-                );
+                window.open(regApprovalStepsRoutes + `step01?id=${id}`);
               }}
             ></Eye>
           </div>
@@ -136,7 +172,7 @@ const TableBase = (props) => {
       "India",
       "124885",
       ["Ramzi Mohomad", "0774567234"],
-      "Rejected",
+      "346765",
     ],
     [
       "Empire Teas ",
@@ -146,7 +182,7 @@ const TableBase = (props) => {
       "India",
       "125142",
       ["Suran Perera", "0774568645"],
-      "Approved",
+      "246765",
     ],
     [
       "Expolanka(Pvt)",
@@ -156,17 +192,7 @@ const TableBase = (props) => {
       "USA",
       "920192",
       ["Kamal Blasooriya", "0774573648"],
-      "Approved",
-    ],
-    [
-      "Hayleys  PLC",
-      "202005176845",
-      "2022/05/04",
-      "10.37",
-      "Pakistan",
-      "921040",
-      ["Nimal Perera", "0774567389"],
-      "Pending",
+      "446765",
     ],
   ];
 

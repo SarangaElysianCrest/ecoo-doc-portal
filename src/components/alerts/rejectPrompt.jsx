@@ -8,8 +8,9 @@ import DialogTitle from "@mui/material/DialogTitle";
 import { TextareaAutosize } from "@material-ui/core";
 import { useHistory } from "react-router-dom";
 
-export default function RejectDialog({ handleClickOpen, handleClose, isOpen }) {
+export default function RejectDialog({ handleReject, handleClose, isOpen, ...props }) {
 	const [open, setOpen] = React.useState(false);
+	const [value, setValue] = React.useState();
 	const history = useHistory();
 
 	React.useEffect(() => {
@@ -29,6 +30,8 @@ export default function RejectDialog({ handleClickOpen, handleClose, isOpen }) {
 							minRows={3}
 							placeholder='Please mention the reason for rejecting this application as a comment.'
 							style={{ width: 450 }}
+							value={value}
+							onChange={(e) => setValue(e.target.value)}
 						/>
 					</DialogContentText>
 				</DialogContent>
@@ -36,7 +39,7 @@ export default function RejectDialog({ handleClickOpen, handleClose, isOpen }) {
 					<Button autoFocus onClick={handleClose}>
 						Cancel
 					</Button>
-					<Button onClick={() => history.push("/web/companyRegistration")}>Reject</Button>
+					<Button onClick={() => handleReject(value)}>Reject</Button>
 				</DialogActions>
 			</Dialog>
 		</div>

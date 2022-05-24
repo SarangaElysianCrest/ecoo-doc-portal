@@ -1,22 +1,35 @@
 import React from "react";
+import { regApprovalStepsRoutes } from "../../../app/routes";
 
-const Step1Container = ({ color, iconURL, title, active, completed }) => {
+const Step1Container = ({ title, active, completed }) => {
+	const currentStep = parseInt(sessionStorage.getItem("currentStep"));
+	const reject = sessionStorage.getItem("rejectStep1");
+	console.log("=================Current Step===============", currentStep);
+	console.log("=================Reject Step 1===============", reject);
 	const iconSelection = () => {
-		if (active) {
-			return "https://img.icons8.com/material-outlined/24/4c94e7/clock--v1.png";
-		} else if (completed) {
-			return "https://img.icons8.com/glyph-neue/24/32bea6/checkmark.png";
+		if (reject) {
+			return "https://img.icons8.com/glyph-neue/24/F5463A/delete-sign.png";
 		} else {
-			return "https://img.icons8.com/ios/18/000000/lock--v1.png";
+			if (active) {
+				return "https://img.icons8.com/material-outlined/24/4c94e7/clock--v1.png";
+			} else if (completed) {
+				return "https://img.icons8.com/glyph-neue/24/32bea6/checkmark.png";
+			} else {
+				return "https://img.icons8.com/ios/18/000000/lock--v1.png";
+			}
 		}
 	};
 	const svgColorSelector = () => {
-		if (active) {
-			return "#4c94e7";
-		} else if (completed) {
-			return "#32bea6";
+		if (reject) {
+			return "#F5463A";
 		} else {
-			return "#dddddd";
+			if (active) {
+				return "#4c94e7";
+			} else if (completed) {
+				return "#32bea6";
+			} else {
+				return "#dddddd";
+			}
 		}
 	};
 	const textColorSelector = () => {
@@ -30,7 +43,16 @@ const Step1Container = ({ color, iconURL, title, active, completed }) => {
 	};
 
 	return (
-		<div width={250} height={50} style={{}}>
+		<div
+			width={250}
+			height={50}
+			style={{}}
+			onClick={() => {
+				sessionStorage.setItem("currentStep", 0);
+				completed || active
+					? window.open(regApprovalStepsRoutes + `step01`, "_self")
+					: console.log("Step 01 is disabled");
+			}}>
 			<svg
 				width={250}
 				height={50}
@@ -64,6 +86,20 @@ const Step1Container = ({ color, iconURL, title, active, completed }) => {
 					{title}
 				</span>
 			</div>
+			{currentStep === 0 && (
+				<div
+					style={{
+						width: 150,
+						height: 15,
+						borderStyle: "solid",
+						borderWidth: "10px 75px 0 75px",
+						borderTopColor: svgColorSelector(),
+						borderLeftColor: "transparent",
+						borderRightColor: "transparent",
+						borderBottomColor: "transparent",
+						margin: "10px auto 2px auto",
+					}}></div>
+			)}
 		</div>
 	);
 };

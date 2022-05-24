@@ -22,7 +22,7 @@ const WebPortal = () => {
             path={"/web/companyRegistration"}
             component={CompanyRegisrationHome}
           />
-          <Route exact path={"/web/overview"} component={OverView} />
+          <Route path={"/web/overview"} component={OverView} />
         </SectionColumn>
       </Section>
     </div>
