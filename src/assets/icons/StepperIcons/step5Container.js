@@ -1,22 +1,34 @@
 import React from "react";
+import { regApprovalStepsRoutes } from "../../../app/routes";
 
 const Step5Container = ({ color, iconURL, title, active, completed }) => {
+	const currentStep = parseInt(sessionStorage.getItem("currentStep"));
+
+	const reject = sessionStorage.getItem("rejectStep5");
 	const iconSelection = () => {
-		if (active) {
-			return "https://img.icons8.com/material-outlined/24/4c94e7/clock--v1.png";
-		} else if (completed) {
-			return "https://img.icons8.com/glyph-neue/24/32bea6/checkmark.png";
+		if (reject) {
+			return "https://img.icons8.com/glyph-neue/24/F5463A/delete-sign.png";
 		} else {
-			return "https://img.icons8.com/ios/18/000000/lock--v1.png";
+			if (active) {
+				return "https://img.icons8.com/material-outlined/24/4c94e7/clock--v1.png";
+			} else if (completed) {
+				return "https://img.icons8.com/glyph-neue/24/32bea6/checkmark.png";
+			} else {
+				return "https://img.icons8.com/ios/18/000000/lock--v1.png";
+			}
 		}
 	};
 	const svgColorSelector = () => {
-		if (active) {
-			return "#4c94e7";
-		} else if (completed) {
-			return "#32bea6";
+		if (reject) {
+			return "#F5463A";
 		} else {
-			return "#dddddd";
+			if (active) {
+				return "#4c94e7";
+			} else if (completed) {
+				return "#32bea6";
+			} else {
+				return "#dddddd";
+			}
 		}
 	};
 	const textColorSelector = () => {
@@ -29,7 +41,12 @@ const Step5Container = ({ color, iconURL, title, active, completed }) => {
 		}
 	};
 	return (
-		<div>
+		<div
+			onClick={() => {
+				completed || active
+					? window.open(regApprovalStepsRoutes + `step05`, "_self")
+					: console.log("Step 05 is disabled");
+			}}>
 			<svg
 				width={250}
 				height={50}
@@ -63,6 +80,20 @@ const Step5Container = ({ color, iconURL, title, active, completed }) => {
 					{title}
 				</span>
 			</div>
+			{currentStep === 4 && (
+				<div
+					style={{
+						width: 150,
+						height: 15,
+						borderStyle: "solid",
+						borderWidth: "10px 75px 0 75px",
+						borderTopColor: svgColorSelector(),
+						borderLeftColor: "transparent",
+						borderRightColor: "transparent",
+						borderBottomColor: "transparent",
+						margin: "10px auto 2px auto",
+					}}></div>
+			)}
 		</div>
 	);
 };

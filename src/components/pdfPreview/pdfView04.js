@@ -8,7 +8,7 @@ import AcceptButton from "../buttons/acceptbutton";
 // now: accept relative pdf path of pdf in public/pdf dir
 // todo: accept pdf id and fetch from file server
 
-export default function PDFView02(props) {
+export default function PDFView04(props) {
   const viewer = useRef(null);
   const [render, setRender] = useState(false);
   const [open, setOpen] = useState(false);
@@ -30,7 +30,7 @@ export default function PDFView02(props) {
     WebViewer(
       {
         path: "/lib",
-        initialDoc: "/pdf/Cd.pdf",
+        initialDoc: "/pdf/NIC1.pdf",
       },
       viewer.current
     ).then((instance) => {

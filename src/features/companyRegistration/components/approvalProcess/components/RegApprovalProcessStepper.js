@@ -7,8 +7,17 @@ import Step4Container from "../../../../../assets/icons/StepperIcons/step4Contai
 import Step5Container from "../../../../../assets/icons/StepperIcons/step5Container";
 
 export default function RegApprovalProcessStepper(props) {
+	const completedSteps = sessionStorage.getItem("completedSteps");
+
+	const checkSteps = () => {
+		if (completedSteps > props.activeStep) {
+			return parseInt(completedSteps);
+		} else {
+			return props.activeStep;
+		}
+	};
 	const renderStepper = () => {
-		switch (props.activeStep) {
+		switch (checkSteps()) {
 			case 0:
 				return (
 					<>

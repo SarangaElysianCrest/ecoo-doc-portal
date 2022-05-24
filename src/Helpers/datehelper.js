@@ -1,8 +1,15 @@
-export  function dateTimeGenerate(d){
-    var date = new Date(d);
+export  function dateTimeGenerate(){
+    var date = new Date();
     let month = date.getMonth();
     month = month+1;
-    return date.getFullYear() +"/"+month+"/"+date.getDate()+"  "+date.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true })
+    if (month < 10) {
+      month = "0" + month;
+    }
+    let dateFormatted = date.getDate();
+    if (dateFormatted < 10) {
+      dateFormatted = "0" + dateFormatted;
+    }
+    return date.getFullYear() +"-"+month+"-"+dateFormatted+" | "+date.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true })
 }
 
 export  function dateGenerate(d){
